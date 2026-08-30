@@ -49,10 +49,10 @@ class CompaniesHouseClient:
         )
 
     def filing_history(self, company_number):
-        return self.get(f"/company/{company_number}/filing-history")
+       return self.get(f"/company/{company_number}/filing-history")
 
     def charges(self, company_number):
-        return self.get(f"/company/{company_number}/charges", optional=True)
+       return self.get(f"/company/{company_number}/charges", optional=True)
 
     def insolvency(self, company_number):
         return self.get(f"/company/{company_number}/insolvency", optional=True)
