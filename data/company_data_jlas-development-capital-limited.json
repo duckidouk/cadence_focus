@@ -1,0 +1,1359 @@
+{
+  "company_profile": {
+    "accounts": {
+      "accounting_reference_date": {
+        "day": "30",
+        "month": "09"
+      },
+      "last_accounts": {
+        "made_up_to": "2025-09-30",
+        "period_end_on": "2025-09-30",
+        "period_start_on": "2024-10-01",
+        "type": "total-exemption-full"
+      },
+      "next_accounts": {
+        "due_on": "2027-06-30",
+        "overdue": false,
+        "period_end_on": "2026-09-30",
+        "period_start_on": "2025-10-01"
+      },
+      "next_due": "2027-06-30",
+      "next_made_up_to": "2026-09-30",
+      "overdue": false
+    },
+    "can_file": true,
+    "company_name": "JLAS DEVELOPMENT CAPITAL LIMITED",
+    "company_number": "08686757",
+    "company_status": "active",
+    "confirmation_statement": {
+      "last_made_up_to": "2025-09-12",
+      "next_due": "2026-09-26",
+      "next_made_up_to": "2026-09-12",
+      "overdue": false
+    },
+    "date_of_creation": "2013-09-12",
+    "etag": "9ea3cd6ed97293b223f5e065edbbee1acbe7f686",
+    "has_been_liquidated": false,
+    "has_charges": false,
+    "has_insolvency_history": false,
+    "jurisdiction": "england-wales",
+    "last_full_members_list_date": "2015-09-12",
+    "links": {
+      "persons_with_significant_control": "/company/08686757/persons-with-significant-control",
+      "self": "/company/08686757",
+      "charges": "/company/08686757/charges",
+      "filing_history": "/company/08686757/filing-history",
+      "officers": "/company/08686757/officers"
+    },
+    "registered_office_address": {
+      "address_line_1": "3 Alexander Street",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 5NT"
+    },
+    "registered_office_is_in_dispute": false,
+    "sic_codes": [
+      "64999"
+    ],
+    "type": "ltd",
+    "undeliverable_registered_office_address": false,
+    "has_super_secure_pscs": false
+  },
+  "search_results": {
+    "items": [
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2013-09-12",
+        "company_type": "ltd",
+        "company_number": "08686757",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "title": "JLAS DEVELOPMENT CAPITAL LIMITED",
+        "address_snippet": "3 Alexander Street, London, England, W2 5NT",
+        "description": "08686757 - Incorporated on 12 September 2013",
+        "links": {
+          "self": "/company/08686757"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2013-02-27",
+        "date_of_cessation": "2017-06-15",
+        "company_type": "ltd",
+        "company_number": "08422528",
+        "address": {
+          "address_line_1": "11-15 William Road",
+          "locality": "London",
+          "postal_code": "NW1 3ER",
+          "premises": "Acre House"
+        },
+        "title": "JLAS CAPITAL LIMITED",
+        "address_snippet": "Acre House, 11-15 William Road, London, NW1 3ER",
+        "description": "08422528 - Dissolved on 15 June 2017",
+        "links": {
+          "self": "/company/08422528"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2018-02-05",
+        "company_type": "ltd",
+        "company_number": "11186351",
+        "address": {
+          "address_line_1": "Downham Way",
+          "country": "United Kingdom",
+          "locality": "Bromley",
+          "postal_code": "BR1 5HR",
+          "premises": "418"
+        },
+        "title": "JLASER LTD",
+        "address_snippet": "418 Downham Way, Bromley, United Kingdom, BR1 5HR",
+        "description": "11186351 - Incorporated on 5 February 2018",
+        "links": {
+          "self": "/company/11186351"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2018-06-05",
+        "company_type": "ltd",
+        "company_number": "11399342",
+        "address": {
+          "address_line_1": "Leman Street",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "E1W 9US",
+          "premises": "2"
+        },
+        "title": "JLAS GLOBAL LTD",
+        "address_snippet": "2 Leman Street, London, United Kingdom, E1W 9US",
+        "description": "11399342 - Incorporated on 5 June 2018",
+        "links": {
+          "self": "/company/11399342"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2024-12-20",
+        "company_type": "ltd",
+        "company_number": "16147325",
+        "address": {
+          "address_line_1": "Ellenhall Close",
+          "country": "England",
+          "locality": "Luton",
+          "postal_code": "LU3 1XH",
+          "premises": "22"
+        },
+        "title": "JLAS-HOLDINGS LTD",
+        "address_snippet": "22 Ellenhall Close, Luton, England, LU3 1XH",
+        "description": "16147325 - Incorporated on 20 December 2024",
+        "links": {
+          "self": "/company/16147325"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-10-30",
+        "company_type": "ltd",
+        "company_number": "16821684",
+        "address": {
+          "address_line_1": "Shelton Street",
+          "address_line_2": "Covent Garden",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "WC2H 9JQ",
+          "premises": "71-75"
+        },
+        "title": "JLASHOP LTD",
+        "address_snippet": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+        "description": "16821684 - Incorporated on 30 October 2025",
+        "links": {
+          "self": "/company/16821684"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2014-03-11",
+        "company_type": "ltd",
+        "company_number": "08933887",
+        "address": {
+          "address_line_1": "Annie Reed Road",
+          "locality": "Beverley",
+          "postal_code": "HU17 0LF",
+          "premises": "Beckside Court",
+          "region": "East Yorkshire"
+        },
+        "title": "JLAS PROPERTIES LIMITED",
+        "address_snippet": "Beckside Court, Annie Reed Road, Beverley, East Yorkshire, HU17 0LF",
+        "description": "08933887 - Incorporated on 11 March 2014",
+        "links": {
+          "self": "/company/08933887"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2015-04-27",
+        "date_of_cessation": "2025-03-09",
+        "company_type": "ltd",
+        "company_number": "09562934",
+        "address": {
+          "address_line_1": "Station Road",
+          "locality": "Upminster",
+          "postal_code": "RM14 2TR",
+          "premises": "40a",
+          "region": "Essex"
+        },
+        "title": "JLASS LIMITED",
+        "address_snippet": "40a Station Road, Upminster, Essex, RM14 2TR",
+        "description": "09562934 - Dissolved on 9 March 2025",
+        "links": {
+          "self": "/company/09562934"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2023-09-27",
+        "date_of_cessation": "2025-03-04",
+        "company_type": "ltd",
+        "company_number": "15168895",
+        "address": {
+          "address_line_1": "Ingleside Court",
+          "address_line_2": "72 St. Augustines Avenue",
+          "country": "England",
+          "locality": "South Croydon",
+          "postal_code": "CR2 6JH",
+          "premises": "Flat 9"
+        },
+        "title": "JLASHCOSMETIC’S LTD",
+        "address_snippet": "Flat 9 Ingleside Court, 72 St. Augustines Avenue, South Croydon, England, CR2 6JH",
+        "description": "15168895 - Dissolved on 4 March 2025",
+        "links": {
+          "self": "/company/15168895"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2022-08-30",
+        "date_of_cessation": "2024-02-06",
+        "company_type": "ltd",
+        "company_number": "14326121",
+        "address": {
+          "address_line_1": "Townsend Farm Church Road",
+          "address_line_2": "Walpole St. Peter",
+          "country": "England",
+          "locality": "Wisbech",
+          "postal_code": "PE14 7NS",
+          "premises": "5"
+        },
+        "title": "JLASOUSKA LTD",
+        "address_snippet": "5 Townsend Farm Church Road, Walpole St. Peter, Wisbech, England, PE14 7NS",
+        "description": "14326121 - Dissolved on 6 February 2024",
+        "links": {
+          "self": "/company/14326121"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2017-12-29",
+        "date_of_cessation": "2020-09-22",
+        "company_type": "ltd",
+        "company_number": "11127599",
+        "address": {
+          "address_line_1": "Clickett Hill",
+          "locality": "Basildon",
+          "postal_code": "SS14 1NN",
+          "premises": "54",
+          "region": "Essex"
+        },
+        "title": "JLASSET LTD",
+        "address_snippet": "54 Clickett Hill, Basildon, Essex, SS14 1NN",
+        "description": "11127599 - Dissolved on 22 September 2020",
+        "links": {
+          "self": "/company/11127599"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2014-11-03",
+        "date_of_cessation": "2019-03-26",
+        "company_type": "ltd",
+        "company_number": "09293351",
+        "address": {
+          "address_line_1": "Cullingworth",
+          "country": "England",
+          "locality": "Bradford",
+          "postal_code": "BD13 5BP",
+          "premises": "Hillcrest Hewenden"
+        },
+        "title": "JLAS AVIATION LIMITED",
+        "address_snippet": "Hillcrest Hewenden, Cullingworth, Bradford, England, BD13 5BP",
+        "description": "09293351 - Dissolved on 26 March 2019",
+        "links": {
+          "self": "/company/09293351"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-07-29",
+        "company_type": "ltd",
+        "company_number": "16613400",
+        "address": {
+          "address_line_1": "Queens Road",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "E17 8PJ",
+          "premises": "203"
+        },
+        "title": "AA CAPITAL DEVELOPMENTS LTD",
+        "address_snippet": "203 Queens Road, London, United Kingdom, E17 8PJ",
+        "description": "16613400 - Incorporated on 29 July 2025",
+        "links": {
+          "self": "/company/16613400"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-09-11",
+        "company_type": "ltd",
+        "company_number": "16712371",
+        "address": {
+          "address_line_1": "Old Gloucester Street",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "WC1N 3AX",
+          "premises": "27"
+        },
+        "title": "AB CAPITAL DEVELOPMENT LTD",
+        "address_snippet": "27 Old Gloucester Street, London, United Kingdom, WC1N 3AX",
+        "description": "16712371 - Incorporated on 11 September 2025",
+        "links": {
+          "self": "/company/16712371"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-12-02",
+        "company_type": "ltd",
+        "company_number": "16886240",
+        "address": {
+          "address_line_1": "9 Oxford Court",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M2 3WQ",
+          "premises": "Bartle House"
+        },
+        "title": "ALTAF CAPITAL DEVELOPMENTS LTD",
+        "address_snippet": "Bartle House, 9 Oxford Court, Manchester, England, M2 3WQ",
+        "description": "16886240 - Incorporated on 2 December 2025",
+        "links": {
+          "self": "/company/16886240"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2012-05-03",
+        "company_type": "ltd",
+        "company_number": "SC423319",
+        "address": {
+          "address_line_1": "9 Haymarket Square",
+          "country": "Scotland",
+          "locality": "Edinburgh",
+          "postal_code": "EH3 8RY",
+          "premises": "Level 5,"
+        },
+        "title": "APPLIED CAPITAL DEVELOPMENTS LIMITED",
+        "address_snippet": "Level 5, 9 Haymarket Square, Edinburgh, Scotland, EH3 8RY",
+        "description": "SC423319 - Incorporated on 3 May 2012",
+        "links": {
+          "self": "/company/SC423319"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on",
+          "liquidation"
+        ],
+        "company_status": "liquidation",
+        "date_of_creation": "2020-05-06",
+        "company_type": "ltd",
+        "company_number": "12587900",
+        "address": {
+          "address_line_1": "27 Byrom Street",
+          "locality": "Manchester",
+          "postal_code": "M3 4PF",
+          "premises": "C/O Cg & Co"
+        },
+        "title": "ASI CAPITAL & DEVELOPMENTS LTD",
+        "address_snippet": "C/O Cg & Co, 27 Byrom Street, Manchester, M3 4PF",
+        "description": "12587900 - Incorporated on 6 May 2020 - Liquidation",
+        "links": {
+          "self": "/company/12587900"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2012-03-27",
+        "company_type": "ltd",
+        "company_number": "08007303",
+        "address": {
+          "address_line_1": "335 Styal Road",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M22 5LW",
+          "premises": "Assetz House Manchester Green"
+        },
+        "title": "ASSETZ DEVELOPMENT CAPITAL LIMITED",
+        "address_snippet": "Assetz House Manchester Green, 335 Styal Road, Manchester, England, M22 5LW",
+        "description": "08007303 - Incorporated on 27 March 2012",
+        "links": {
+          "self": "/company/08007303"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2001-07-05",
+        "company_type": "ltd",
+        "company_number": "04246800",
+        "address": {
+          "address_line_1": "Barrington Road",
+          "country": "United Kingdom",
+          "locality": "Altrincham",
+          "postal_code": "WA14 1GY",
+          "premises": "3"
+        },
+        "title": "ASSURA CAPITAL PROJECTS DEVELOPMENT LIMITED",
+        "address_snippet": "3 Barrington Road, Altrincham, United Kingdom, WA14 1GY",
+        "description": "04246800 - Incorporated on 5 July 2001",
+        "links": {
+          "self": "/company/04246800"
+        },
+        "snippet": "APOLLO CAPITAL PROJECTS DEVELOPMENT LIMITED · APOLLO CAPITAL DEVELOPMENT LIMITED",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "registered-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "1988-04-27",
+        "company_type": "limited-partnership",
+        "company_number": "LP003427",
+        "address": {
+          "address_line_1": "Devonshire Square",
+          "address_line_2": "London",
+          "premises": "11"
+        },
+        "title": "BARONSMEAD DEVELOPMENT CAPITAL PARTNERS",
+        "address_snippet": "11 Devonshire Square, London",
+        "description": "LP003427 - Registered on 27 April 1988",
+        "links": {
+          "self": "/company/LP003427"
+        },
+        "snippet": "MIM DEVELOPMENT CAPITAL PARTNERS",
+        "matches": {
+          "snippet": []
+        }
+      }
+    ],
+    "kind": "search#companies",
+    "page_number": 1,
+    "items_per_page": 20,
+    "total_results": 10000,
+    "start_index": 0
+  },
+  "officers": {
+    "active_count": 2,
+    "etag": "137deb12bf0a963bafc62340670e23a23be1987d",
+    "items": [
+      {
+        "etag": "137deb12bf0a963bafc62340670e23a23be1987d",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "appointed_on": "2013-09-12",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/08686757/appointments/ZY9PZwVMvZztljIOWlmXg9DZs6U",
+          "officer": {
+            "appointments": "/officers/G1anRrYkdjwSscEDPGU1BTQ2gaU/appointments"
+          }
+        },
+        "name": "SZPIRO, James Lucien Alexander",
+        "officer_role": "secretary",
+        "person_number": "181245630001"
+      },
+      {
+        "etag": "1cdb69b90a3802c48aba0cb1ae5889ab7aa4425e",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "appointed_on": "2013-09-12",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "links": {
+          "self": "/company/08686757/appointments/9dvGltvlyu82vd4jlY6BlbQMR8s",
+          "officer": {
+            "appointments": "/officers/SXUtaoOBNSbQGoiKTLwutGb7YmY/appointments"
+          }
+        },
+        "name": "SZPIRO, James Lucien Alexander",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "267622910001",
+        "identity_verification_details": {
+          "appointment_verification_statement_due_on": "2026-09-26"
+        }
+      }
+    ],
+    "items_per_page": 35,
+    "kind": "officer-list",
+    "links": {
+      "self": "/company/08686757/officers"
+    },
+    "resigned_count": 0,
+    "inactive_count": 0,
+    "start_index": 0,
+    "total_results": 2
+  },
+  "psc_ownership": {
+    "items_per_page": 25,
+    "items": [
+      {
+        "etag": "50eb814af6f2248f964e10f31b2e771fafc15edc",
+        "notified_on": "2016-04-06",
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "name": "Mr James Lucien Alexander Szpiro",
+        "name_elements": {
+          "title": "Mr",
+          "surname": "Szpiro",
+          "forename": "James",
+          "middle_name": "Lucien Alexander"
+        },
+        "links": {
+          "self": "/company/08686757/persons-with-significant-control/individual/bgEhjqCtDd9aijySmsme0nHKzYQ"
+        },
+        "nationality": "British",
+        "identity_verification_details": {
+          "appointment_verification_statement_date": "2026-09-13",
+          "appointment_verification_statement_due_on": "2026-09-26"
+        },
+        "ceased": false,
+        "kind": "individual-person-with-significant-control",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "natures_of_control": [
+          "ownership-of-shares-75-to-100-percent",
+          "voting-rights-75-to-100-percent",
+          "right-to-appoint-and-remove-directors",
+          "significant-influence-or-control"
+        ]
+      }
+    ],
+    "start_index": 0,
+    "total_results": 1,
+    "active_count": 1,
+    "ceased_count": 0,
+    "links": {
+      "self": "/company/08686757/persons-with-significant-control"
+    }
+  },
+  "filing_history": {
+    "filing_history_status": "filing-history-available",
+    "items": [
+      {
+        "transaction_id": "MzUyNjQzMDE2NGFkaXF6a2N4",
+        "barcode": "XF4GD5Q0",
+        "type": "AA",
+        "date": "2026-06-17",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2025-09-30"
+        },
+        "pages": 7,
+        "action_date": "2025-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzUyNjQzMDE2NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/OMM-ihA4oyqUZNLKp7Lj2iQ_iHKgv9DyJqqlM-9xQ0M"
+        }
+      },
+      {
+        "transaction_id": "MzQ4MDgxMDAzOGFkaXF6a2N4",
+        "barcode": "XEAYMY2X",
+        "type": "CS01",
+        "date": "2025-09-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2025-09-12"
+        },
+        "pages": 3,
+        "action_date": "2025-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzQ4MDgxMDAzOGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/6EnaMqNo0ru0Rz8rpIMu-4sEo8k4oYf0blXEkp79uX4"
+        }
+      },
+      {
+        "transaction_id": "MzQ3MTkxNjc2NWFkaXF6a2N4",
+        "barcode": "XE5S22AH",
+        "type": "AA",
+        "date": "2025-06-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2024-09-30"
+        },
+        "pages": 7,
+        "action_date": "2024-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzQ3MTkxNjc2NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9lxplQ9FMSN1HxOQ8xNeOZH2Aq1RhXyX2Y_nJThbo1s"
+        }
+      },
+      {
+        "transaction_id": "MzQzNTQwNzA4OGFkaXF6a2N4",
+        "barcode": "XDBHI0MJ",
+        "type": "CS01",
+        "date": "2024-09-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2024-09-12"
+        },
+        "pages": 3,
+        "action_date": "2024-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzQzNTQwNzA4OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/46bbFMmqRscJkHH6hvRoQJMRWKjNvWV_giDfLAirlIU"
+        }
+      },
+      {
+        "transaction_id": "MzQyNzA3NDE1M2FkaXF6a2N4",
+        "barcode": "XD66SG9D",
+        "type": "AA",
+        "date": "2024-06-28",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2023-09-30"
+        },
+        "pages": 7,
+        "action_date": "2023-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzQyNzA3NDE1M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/3-N0VVuPMbc14VOZnIC70jl5z-1vHAoR5dg6GxdaZAA"
+        }
+      },
+      {
+        "transaction_id": "MzM5NDI3NTUxNmFkaXF6a2N4",
+        "barcode": "XCCRZUEN",
+        "type": "CS01",
+        "date": "2023-09-25",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2023-09-12"
+        },
+        "pages": 3,
+        "action_date": "2023-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzM5NDI3NTUxNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/nThLE32EPTe3OQVmgHbLsCCR1h9RHOrkOM474ylBm-Q"
+        }
+      },
+      {
+        "transaction_id": "MzM4NDYzOTUwMmFkaXF6a2N4",
+        "barcode": "XC6QK9VV",
+        "type": "AA",
+        "date": "2023-06-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2022-09-30"
+        },
+        "pages": 7,
+        "action_date": "2022-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzM4NDYzOTUwMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/bSB_fCeV4Uy5k72F9fqSZ8MehTf-aVwLzXup1TAl_I4"
+        }
+      },
+      {
+        "transaction_id": "MzM1MTU1MjI4NmFkaXF6a2N4",
+        "barcode": "XBCDH4N6",
+        "type": "CS01",
+        "date": "2022-09-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-09-12"
+        },
+        "pages": 3,
+        "action_date": "2022-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzM1MTU1MjI4NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/rV624x2l8xENVAos7BFbFY3MLSXst7F-LmqPtKMAVe8"
+        }
+      },
+      {
+        "transaction_id": "MzM0NDE4MjM2OWFkaXF6a2N4",
+        "barcode": "XB76L8SW",
+        "type": "AA",
+        "date": "2022-06-29",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2021-09-30"
+        },
+        "pages": 8,
+        "action_date": "2021-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzM0NDE4MjM2OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/MUztmEPv-qnC98dYwu9Xx-vCVtozFbsj5uRp4He0284"
+        }
+      },
+      {
+        "transaction_id": "MzMxNzk4MjgxMmFkaXF6a2N4",
+        "barcode": "XAFTTPJ6",
+        "type": "CS01",
+        "date": "2021-10-25",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-09-12"
+        },
+        "pages": 3,
+        "action_date": "2021-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzMxNzk4MjgxMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/4mNA6zfTS01Zhp-fMiEZZ-cYociYemNItJE7DdBbffw"
+        }
+      },
+      {
+        "transaction_id": "MzMwNjMyMDU4NWFkaXF6a2N4",
+        "barcode": "XA7QWD82",
+        "type": "AA",
+        "date": "2021-06-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2020-09-30"
+        },
+        "pages": 7,
+        "action_date": "2020-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzMwNjMyMDU4NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/q5gWEfgdUFF9SYw4hDj2iI9DiWyTaS16ZCLCq3lb7Z0"
+        }
+      },
+      {
+        "transaction_id": "MzI4MDI5MTQ4M2FkaXF6a2N4",
+        "barcode": "X9FI87M3",
+        "type": "CS01",
+        "date": "2020-10-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-09-12"
+        },
+        "pages": 3,
+        "action_date": "2020-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzI4MDI5MTQ4M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/eilgg9vk1itQgVKfcicyIRYrJgWi_f7WRhbM6E0GFsQ"
+        }
+      },
+      {
+        "transaction_id": "MzI3NDIyNjAxMWFkaXF6a2N4",
+        "barcode": "X9ACY64B",
+        "type": "CH03",
+        "date": "2020-07-30",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-secretary-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-07-30",
+          "officer_name": "Mr James Szpiro"
+        },
+        "pages": 1,
+        "action_date": "2020-07-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzI3NDIyNjAxMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/nvdlS9QzLhMcroyVOWJY-AFhNkaCTThRGcJwHEPELFE"
+        }
+      },
+      {
+        "transaction_id": "MzI3NDIyNTQwMmFkaXF6a2N4",
+        "barcode": "X9ACY501",
+        "type": "CH01",
+        "date": "2020-07-30",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-07-30",
+          "officer_name": "Mr James Lucien Alexander Szpiro"
+        },
+        "pages": 2,
+        "action_date": "2020-07-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzI3NDIyNTQwMmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/kFKLY43PoLFRnvkd-PbzQwsgTz6Zc68XcZPBrHVcVtQ"
+        }
+      },
+      {
+        "transaction_id": "MzI3NDIxNzc2M2FkaXF6a2N4",
+        "barcode": "X9ACXBUY",
+        "type": "AA",
+        "date": "2020-07-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2019-09-30"
+        },
+        "pages": 8,
+        "action_date": "2019-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzI3NDIxNzc2M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/uejvZd71OcKAZvOxd9NTcQxp94xX5utoUfz0de4nln8"
+        }
+      },
+      {
+        "transaction_id": "MzI0ODUzNTI5OGFkaXF6a2N4",
+        "barcode": "R7EB6ZTC",
+        "type": "MORT MISC",
+        "date": "2019-11-05",
+        "category": "mortgage",
+        "description": "mortgage-miscellaneous",
+        "description_values": {
+          "description": "Notice of removal of a filing from the company record"
+        },
+        "pages": 1,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/08686757/filing-history/MzI0ODUzNTI5OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/FfNrJ_mJVOzvUCO-rBO2HobjpFZFbtA-7eqIybucQSU"
+        }
+      },
+      {
+        "transaction_id": "MzI0NDYxNTM2NmFkaXF6a2N4",
+        "barcode": "X8ECFA3E",
+        "type": "CS01",
+        "date": "2019-09-19",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2019-09-12"
+        },
+        "pages": 3,
+        "action_date": "2019-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzI0NDYxNTM2NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ZIms-FravQ8AnVzFeKzbdzWMxtm8euvC2NtPSnWcw24"
+        }
+      },
+      {
+        "transaction_id": "MzIzNzk3MzIzNGFkaXF6a2N4",
+        "barcode": "X88H2NB4",
+        "type": "AA",
+        "date": "2019-06-27",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2018-09-30"
+        },
+        "pages": 7,
+        "action_date": "2018-09-30",
+        "links": {
+          "self": "/company/08686757/filing-history/MzIzNzk3MzIzNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/By9HMx6TX9OqlG1vsMUD66pjC8RWJWYqTeQQzhtGX9Y"
+        }
+      },
+      {
+        "transaction_id": "MzIzMjE1NzcwOWFkaXF6a2N4",
+        "barcode": "X83HCY7M",
+        "type": "AD01",
+        "date": "2019-04-16",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2019-04-16",
+          "old_address": "3 3 Alexander Street London London Greater London W2 5NT England",
+          "new_address": "3 Alexander Street London W2 5NT"
+        },
+        "pages": 1,
+        "action_date": "2019-04-16",
+        "links": {
+          "self": "/company/08686757/filing-history/MzIzMjE1NzcwOWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/UBRwxvj1nn3GkWKbGpIncUnLL2ZoUud0_lx5qmHvGrg"
+        }
+      },
+      {
+        "transaction_id": "MzIyMDk5NjU1NWFkaXF6a2N4",
+        "barcode": "X7JZQY7M",
+        "type": "AD01",
+        "date": "2018-12-03",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2018-12-03",
+          "old_address": "51 Talbot Road London W2 5JJ",
+          "new_address": "3 3 Alexander Street London London Greater London W2 5NT"
+        },
+        "pages": 1,
+        "action_date": "2018-12-03",
+        "links": {
+          "self": "/company/08686757/filing-history/MzIyMDk5NjU1NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/0_2wusUQGp17YYeJspntO-lNAkXNnCxfS2f4nmI9MGQ"
+        }
+      },
+      {
+        "transaction_id": "MzIxNDMzMDYxMGFkaXF6a2N4",
+        "barcode": "X7EBL8PL",
+        "type": "CS01",
+        "date": "2018-09-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2018-09-12"
+        },
+        "pages": 3,
+        "action_date": "2018-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzIxNDMzMDYxMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/oSyvRGOI89f0BIzX9iD0g0728BzrXiEKQ6yyaJUUF_M"
+        }
+      },
+      {
+        "transaction_id": "MzIwMzQyNzQ1MmFkaXF6a2N4",
+        "barcode": "L747IELL",
+        "type": "AA",
+        "date": "2018-04-26",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2017-09-30"
+        },
+        "pages": 8,
+        "action_date": "2017-09-30",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/08686757/filing-history/MzIwMzQyNzQ1MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/wh9Mr3MHjePu-0cYIrq2W6WhDp41iD5eHOV43x1pplk"
+        }
+      },
+      {
+        "transaction_id": "MzE4NTE0OTkwM2FkaXF6a2N4",
+        "barcode": "X6ETMNJV",
+        "type": "CS01",
+        "date": "2017-09-12",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2017-09-12"
+        },
+        "pages": 3,
+        "action_date": "2017-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzE4NTE0OTkwM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/S1833IRDc1jqy35-86rufde5lU0IxiVJw7_cPJhBWFg"
+        }
+      },
+      {
+        "transaction_id": "MzE3ODk5NTMzN2FkaXF6a2N4",
+        "barcode": "L697DJCH",
+        "type": "AA",
+        "date": "2017-06-27",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-small",
+        "description_values": {
+          "made_up_date": "2016-09-30"
+        },
+        "pages": 9,
+        "action_date": "2016-09-30",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/08686757/filing-history/MzE3ODk5NTMzN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9y2QHVghiezN_uGL4Y-1lAPi6C191TlW_hjeiarxW-Y"
+        }
+      },
+      {
+        "transaction_id": "MzE1NzI2NDY0NmFkaXF6a2N4",
+        "barcode": "X5FFPF2G",
+        "type": "CS01",
+        "date": "2016-09-13",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2016-09-12"
+        },
+        "pages": 5,
+        "action_date": "2016-09-12",
+        "links": {
+          "self": "/company/08686757/filing-history/MzE1NzI2NDY0NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/PsyPAAzsLYnWkLyYX4-DWurFhxpHh8TYXaXnFJ3qigc"
+        }
+      }
+    ],
+    "items_per_page": 25,
+    "start_index": 0,
+    "total_count": 31
+  },
+  "charges": {
+    "etag": "9cb286e888e42034cea5228cc3b60cc9ffa09b95",
+    "total_count": 2,
+    "unfiltered_count": 2,
+    "satisfied_count": 0,
+    "part_satisfied_count": 0,
+    "items": [
+      {
+        "etag": "31fa6ed65eeb67787115ff8ca55a487aa7ce20f6",
+        "charge_code": "086867570002",
+        "classification": {
+          "type": "charge-description",
+          "description": "A registered charge"
+        },
+        "charge_number": 2,
+        "status": "outstanding",
+        "delivered_on": "2018-09-12",
+        "created_on": "2018-09-07",
+        "particulars": {
+          "type": "short-particulars",
+          "description": "Land on the north side of college road abbots langley.",
+          "contains_fixed_charge": true,
+          "contains_negative_pledge": true
+        },
+        "persons_entitled": [
+          {
+            "name": "Cairnpark Properties Limited"
+          }
+        ],
+        "transactions": [
+          {
+            "filing_type": "create-charge",
+            "delivered_on": "2018-09-12"
+          }
+        ],
+        "links": {
+          "self": "/company/08686757/charges/-_F-uwdeZlhQE_qEG31Vm0CKhQc"
+        }
+      },
+      {
+        "etag": "2866d044ecd0ef4b23dffa516971b64400ca059e",
+        "charge_code": "086867570001",
+        "classification": {
+          "type": "charge-description",
+          "description": "A registered charge"
+        },
+        "charge_number": 1,
+        "status": "outstanding",
+        "delivered_on": "2014-09-26",
+        "created_on": "2014-09-19",
+        "particulars": {
+          "contains_floating_charge": true,
+          "contains_fixed_charge": true,
+          "floating_charge_covers_all": true,
+          "contains_negative_pledge": true
+        },
+        "persons_entitled": [
+          {
+            "name": "Nesset Investments (Jersey) Limited"
+          }
+        ],
+        "transactions": [
+          {
+            "filing_type": "create-charge-with-deed",
+            "delivered_on": "2014-09-26",
+            "links": {
+              "filing": "/company/08686757/filing-history/MzEwODYwNDYyN2FkaXF6a2N4"
+            }
+          }
+        ],
+        "links": {
+          "self": "/company/08686757/charges/kX5W-lO85TZ7XpGXb1Z8AoXsGP4"
+        }
+      }
+    ]
+  },
+  "insolvency": {},
+  "officer_networks": [
+    {
+      "officer_name": "SZPIRO, James Lucien Alexander",
+      "companies": [
+        {
+          "name": "PROJECT WEXLER EBT LIMITED",
+          "number": "15395775",
+          "role": "director",
+          "appointed": "2024-01-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER TOPCO LIMITED",
+          "number": "15335730",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER MIDCO LIMITED",
+          "number": "15335898",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER FINCO LIMITED",
+          "number": "15336181",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "CADENCE WEXLER GP LLP",
+          "number": "SO307881",
+          "role": "llp-designated-member",
+          "appointed": "2023-11-17",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER BIDCO LIMITED",
+          "number": "15218766",
+          "role": "director",
+          "appointed": "2023-10-18",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR BIDCO LIMITED",
+          "number": "14069820",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR TOPCO LIMITED",
+          "number": "14069033",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR MIDCO LIMITED",
+          "number": "14069436",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "CADENCE AZURE GP LLP",
+          "number": "SO306956",
+          "role": "llp-designated-member",
+          "appointed": "2020-05-29",
+          "resigned": null
+        },
+        {
+          "name": "AWS FINCO LIMITED",
+          "number": "12647208",
+          "role": "director",
+          "appointed": "2020-06-05",
+          "resigned": "2024-11-27"
+        },
+        {
+          "name": "AWS MIDCO LIMITED",
+          "number": "12633652",
+          "role": "director",
+          "appointed": "2020-05-30",
+          "resigned": "2024-11-27"
+        },
+        {
+          "name": "AWS TOPCO LIMITED",
+          "number": "12631862",
+          "role": "director",
+          "appointed": "2020-05-29",
+          "resigned": "2024-11-27"
+        },
+        {
+          "name": "AWS BIDCO LIMITED",
+          "number": "12489298",
+          "role": "director",
+          "appointed": "2020-02-28",
+          "resigned": "2024-11-27"
+        }
+      ]
+    }
+  ]
+}

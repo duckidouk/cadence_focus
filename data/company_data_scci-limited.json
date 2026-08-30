@@ -1,0 +1,1690 @@
+{
+  "company_profile": {
+    "accounts": {
+      "accounting_reference_date": {
+        "day": "30",
+        "month": "09"
+      },
+      "last_accounts": {
+        "made_up_to": "2025-09-30",
+        "period_end_on": "2025-09-30",
+        "period_start_on": "2024-04-01",
+        "type": "micro-entity"
+      },
+      "next_accounts": {
+        "due_on": "2027-06-30",
+        "overdue": false,
+        "period_end_on": "2026-09-30",
+        "period_start_on": "2025-10-01"
+      },
+      "next_due": "2027-06-30",
+      "next_made_up_to": "2026-09-30",
+      "overdue": false
+    },
+    "can_file": true,
+    "company_name": "SCCI LIMITED",
+    "company_number": "05150526",
+    "company_status": "active",
+    "confirmation_statement": {
+      "last_made_up_to": "2026-06-10",
+      "next_due": "2027-06-24",
+      "next_made_up_to": "2027-06-10",
+      "overdue": false
+    },
+    "date_of_creation": "2004-06-10",
+    "etag": "ee2432c4ce0c1a127f1f3fa5bd053383085c1592",
+    "has_been_liquidated": false,
+    "has_charges": false,
+    "has_insolvency_history": false,
+    "jurisdiction": "england-wales",
+    "last_full_members_list_date": "2016-06-10",
+    "links": {
+      "persons_with_significant_control": "/company/05150526/persons-with-significant-control",
+      "self": "/company/05150526",
+      "filing_history": "/company/05150526/filing-history",
+      "officers": "/company/05150526/officers"
+    },
+    "registered_office_address": {
+      "address_line_1": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+      "address_line_2": "Knowlhill",
+      "country": "United Kingdom",
+      "locality": "Milton Keynes",
+      "postal_code": "MK5 8FT",
+      "region": "Buckinghamshire"
+    },
+    "registered_office_is_in_dispute": false,
+    "sic_codes": [
+      "70229"
+    ],
+    "type": "ltd",
+    "undeliverable_registered_office_address": false,
+    "has_super_secure_pscs": false
+  },
+  "search_results": {
+    "items": [
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2004-06-10",
+        "company_type": "ltd",
+        "company_number": "05150526",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "title": "SCCI LIMITED",
+        "address_snippet": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court, Knowlhill, Milton Keynes, Buckinghamshire, United Kingdom, MK5 8FT",
+        "description": "05150526 - Incorporated on 10 June 2004",
+        "links": {
+          "self": "/company/05150526"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "1999-11-09",
+        "company_type": "ltd",
+        "company_number": "03874266",
+        "address": {
+          "address_line_1": "St. Johns Place",
+          "country": "England",
+          "locality": "Hove",
+          "postal_code": "BN3 2FJ",
+          "premises": "2"
+        },
+        "title": "SYNERGY CAPITAL UK LIMITED",
+        "address_snippet": "2 St. Johns Place, Hove, England, BN3 2FJ",
+        "description": "03874266 - Incorporated on 9 November 1999",
+        "links": {
+          "self": "/company/03874266"
+        },
+        "snippet": "SCCI LIMITED",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "1992-10-30",
+        "company_type": "ltd",
+        "company_number": "02760731",
+        "address": {
+          "address_line_1": "Botleigh Grange Business Park",
+          "locality": "Hedge End",
+          "postal_code": "SO30 2AF",
+          "premises": "The Pavilion",
+          "region": "Southampton"
+        },
+        "title": "SCCI ALPHATRACK LTD",
+        "address_snippet": "The Pavilion, Botleigh Grange Business Park, Hedge End, Southampton, SO30 2AF",
+        "description": "02760731 - Incorporated on 30 October 1992",
+        "links": {
+          "self": "/company/02760731"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2007-02-07",
+        "company_type": "ltd",
+        "company_number": "06089974",
+        "address": {
+          "address_line_1": "Botleigh Grange Business Park",
+          "locality": "Hedge End",
+          "postal_code": "SO30 2AF",
+          "premises": "The Pavilion",
+          "region": "Southampton"
+        },
+        "title": "SCCI GROUP LIMITED",
+        "address_snippet": "The Pavilion, Botleigh Grange Business Park, Hedge End, Southampton, SO30 2AF",
+        "description": "06089974 - Incorporated on 7 February 2007",
+        "links": {
+          "self": "/company/06089974"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "1994-08-25",
+        "date_of_cessation": "2013-07-02",
+        "company_type": "ltd",
+        "company_number": "02962118",
+        "address": {
+          "address_line_1": "Rockstone Place",
+          "locality": "Southampton",
+          "postal_code": "SO15 2EP",
+          "premises": "The Director General's House",
+          "region": "Hampshire"
+        },
+        "title": "SCCI ENERGY LTD",
+        "address_snippet": "The Director General's House, Rockstone Place, Southampton, Hampshire, SO15 2EP",
+        "description": "02962118 - Dissolved on 2 July 2013",
+        "links": {
+          "self": "/company/02962118"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2011-03-29",
+        "date_of_cessation": "2013-07-02",
+        "company_type": "ltd",
+        "company_number": "07582876",
+        "address": {
+          "address_line_1": "Rockstone Place",
+          "locality": "Southampton",
+          "postal_code": "SO15 2EP",
+          "premises": "The Director General's House",
+          "region": "Hampshire"
+        },
+        "title": "DIAGONAL VENTURES LTD",
+        "address_snippet": "The Director General's House, Rockstone Place, Southampton, Hampshire, SO15 2EP",
+        "description": "07582876 - Dissolved on 2 July 2013",
+        "links": {
+          "self": "/company/07582876"
+        },
+        "snippet": "SCCI ALPHATRACK",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2007-09-24",
+        "date_of_cessation": "2010-01-12",
+        "company_type": "ltd",
+        "company_number": "06380100",
+        "address": {
+          "address_line_1": "25a Talbot Road",
+          "locality": "London",
+          "postal_code": "W2 5JF",
+          "premises": "Flat 3"
+        },
+        "title": "SCCIP LIMITED",
+        "address_snippet": "Flat 3 25a Talbot Road, London, W2 5JF",
+        "description": "06380100 - Dissolved on 12 January 2010",
+        "links": {
+          "self": "/company/06380100"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2012-05-21",
+        "date_of_cessation": "2013-12-31",
+        "company_type": "ltd",
+        "company_number": "08076192",
+        "address": {
+          "address_line_1": "Prestwich",
+          "country": "United Kingdom",
+          "locality": "Manchester",
+          "postal_code": "M25 9JY",
+          "premises": "C/O The Vault 47 Bury New Road"
+        },
+        "title": "FULL ZAFIRO SCCIEDAD LTD",
+        "address_snippet": "C/O The Vault 47 Bury New Road Prestwich, Manchester, United Kingdom, M25 9JY",
+        "description": "08076192 - Dissolved on 31 December 2013",
+        "links": {
+          "self": "/company/08076192"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2016-04-12",
+        "company_type": "ltd",
+        "company_number": "10118891",
+        "address": {
+          "address_line_1": "Wootton St Lawrence",
+          "country": "England",
+          "locality": "Basingstoke",
+          "postal_code": "RG23 8PE",
+          "premises": "South Building, Upper Farm"
+        },
+        "title": "SC CINE LTD",
+        "address_snippet": "South Building, Upper Farm, Wootton St Lawrence, Basingstoke, England, RG23 8PE",
+        "description": "10118891 - Incorporated on 12 April 2016",
+        "links": {
+          "self": "/company/10118891"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "1998-05-14",
+        "company_type": "ltd",
+        "company_number": "03563809",
+        "address": {
+          "address_line_1": "Valley Road",
+          "country": "United Kingdom",
+          "locality": "Fawkham",
+          "postal_code": "DA3 8LY",
+          "premises": "Black Barn",
+          "region": "Kent"
+        },
+        "title": "SCC INVESTMENTS LIMITED",
+        "address_snippet": "Black Barn, Valley Road, Fawkham, Kent, United Kingdom, DA3 8LY",
+        "description": "03563809 - Incorporated on 14 May 1998",
+        "links": {
+          "self": "/company/03563809"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2019-01-17",
+        "company_type": "ltd",
+        "company_number": "11772237",
+        "address": {
+          "address_line_1": "Leonard Avenue",
+          "country": "United Kingdom",
+          "locality": "Swanscombe",
+          "postal_code": "DA10 0EZ",
+          "premises": "81"
+        },
+        "title": "SC CIORNEI LTD",
+        "address_snippet": "81 Leonard Avenue, Swanscombe, United Kingdom, DA10 0EZ",
+        "description": "11772237 - Incorporated on 17 January 2019",
+        "links": {
+          "self": "/company/11772237"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2025-12-17",
+        "date_of_cessation": "2026-07-07",
+        "company_type": "ltd",
+        "company_number": "16916314",
+        "address": {
+          "address_line_1": "Shelton Street",
+          "address_line_2": "Covent Garden",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "WC2H 9JQ",
+          "premises": "71-75"
+        },
+        "title": "SC CIRCLE LIMITED",
+        "address_snippet": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+        "description": "16916314 - Dissolved on 7 July 2026",
+        "links": {
+          "self": "/company/16916314"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2023-11-23",
+        "date_of_cessation": "2026-05-19",
+        "company_type": "ltd",
+        "company_number": "15304362",
+        "address": {
+          "address_line_1": "70 Grange Road East",
+          "country": "United Kingdom",
+          "locality": "Wirral",
+          "postal_code": "CH41 5FE",
+          "premises": "The Accountancy Partnership"
+        },
+        "title": "SCC IT SERVICES LTD",
+        "address_snippet": "The Accountancy Partnership, 70 Grange Road East, Wirral, United Kingdom, CH41 5FE",
+        "description": "15304362 - Dissolved on 19 May 2026",
+        "links": {
+          "self": "/company/15304362"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2019-05-03",
+        "company_type": "ltd",
+        "company_number": "11977584",
+        "address": {
+          "address_line_1": "Houghton Place",
+          "country": "England",
+          "locality": "Bradford",
+          "postal_code": "BD1 3RG",
+          "premises": "46"
+        },
+        "title": "SC CIVIL ENGINEERING LIMITED",
+        "address_snippet": "46 Houghton Place, Bradford, England, BD1 3RG",
+        "description": "11977584 - Incorporated on 3 May 2019",
+        "links": {
+          "self": "/company/11977584"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2024-07-02",
+        "company_type": "ltd",
+        "company_number": "15815359",
+        "address": {
+          "address_line_1": "Stockton On Tees",
+          "country": "United Kingdom",
+          "locality": "United Kingdom",
+          "postal_code": "TS18 3TS",
+          "premises": "C/O Milner Smeaton Viking House Falcon Court, Preston Farm"
+        },
+        "title": "SC CIVILS LTD",
+        "address_snippet": "C/O Milner Smeaton Viking House Falcon Court, Preston Farm, Stockton On Tees, United Kingdom, United Kingdom, TS18 3TS",
+        "description": "15815359 - Incorporated on 2 July 2024",
+        "links": {
+          "self": "/company/15815359"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2024-05-21",
+        "company_type": "ltd",
+        "company_number": "15731962",
+        "address": {
+          "address_line_1": "Oxford Court",
+          "country": "England",
+          "locality": "Manchester",
+          "postal_code": "M2 3WQ",
+          "premises": "Bartle House"
+        },
+        "title": "SC CIVILS AND CONSTRUCTION LTD",
+        "address_snippet": "Bartle House, Oxford Court, Manchester, England, M2 3WQ",
+        "description": "15731962 - Incorporated on 21 May 2024",
+        "links": {
+          "self": "/company/15731962"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2012-04-19",
+        "company_type": "ltd",
+        "company_number": "08038188",
+        "address": {
+          "address_line_1": "Wandle Beck",
+          "country": "England",
+          "locality": "Didcot",
+          "postal_code": "OX11 7XB",
+          "premises": "20"
+        },
+        "title": "S C CIVILS & MAINTENANCE LIMITED",
+        "address_snippet": "20 Wandle Beck, Didcot, England, OX11 7XB",
+        "description": "08038188 - Incorporated on 19 April 2012",
+        "links": {
+          "self": "/company/08038188"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-04-29",
+        "company_type": "ltd",
+        "company_number": "16415890",
+        "address": {
+          "address_line_1": "58 Vicarage Road",
+          "country": "United Kingdom",
+          "locality": "Watford",
+          "postal_code": "WD18 0EN",
+          "premises": "Flat 29"
+        },
+        "title": "SC CIVILS & UTILITIES LTD",
+        "address_snippet": "Flat 29 58 Vicarage Road, Watford, United Kingdom, WD18 0EN",
+        "description": "16415890 - Incorporated on 29 April 2025",
+        "links": {
+          "self": "/company/16415890"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2023-07-24",
+        "date_of_cessation": "2024-12-24",
+        "company_type": "ltd",
+        "company_number": "15024010",
+        "address": {
+          "address_line_1": "Chester Road",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "E7 8QT",
+          "premises": "35"
+        },
+        "title": "SC CIPY LIMITED",
+        "address_snippet": "35 Chester Road, London, England, E7 8QT",
+        "description": "15024010 - Dissolved on 24 December 2024",
+        "links": {
+          "self": "/company/15024010"
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2022-08-28",
+        "date_of_cessation": "2024-01-30",
+        "company_type": "ltd",
+        "company_number": "14321661",
+        "address": {
+          "address_line_1": "Cygnet Court",
+          "address_line_2": "2 Swan Street",
+          "country": "United Kingdom",
+          "locality": "Newport",
+          "postal_code": "PO30 2FA",
+          "premises": "Flat 1",
+          "region": "Isle Of Wight"
+        },
+        "title": "SC CIVILS LTD",
+        "address_snippet": "Flat 1 Cygnet Court, 2 Swan Street, Newport, Isle Of Wight, United Kingdom, PO30 2FA",
+        "description": "14321661 - Dissolved on 30 January 2024",
+        "links": {
+          "self": "/company/14321661"
+        }
+      }
+    ],
+    "kind": "search#companies",
+    "page_number": 1,
+    "items_per_page": 20,
+    "total_results": 35,
+    "start_index": 0
+  },
+  "officers": {
+    "active_count": 3,
+    "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+    "items": [
+      {
+        "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/05150526/appointments/mHtKCk84r9QM1BrdHJiM0q7x3fQ",
+          "officer": {
+            "appointments": "/officers/9rTELS9WKtzj_obTqKwoza2cPuo/appointments"
+          }
+        },
+        "name": "MCCOMIE, Linda Maria",
+        "nationality": "British",
+        "officer_role": "secretary",
+        "person_number": "46683410001"
+      },
+      {
+        "etag": "9668e5af20b46144f2c2e4dd8d1596d0f96a5a1a",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1949
+        },
+        "links": {
+          "self": "/company/05150526/appointments/bBAbEcW9BZsA6yYjYPvCDOllt2s",
+          "officer": {
+            "appointments": "/officers/slvP-8J_k11EqsbEZ0EmkjZnFCw/appointments"
+          }
+        },
+        "name": "HUMPHRIES, Andrew Stephen, Dr",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "59739140001",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-10"
+        }
+      },
+      {
+        "etag": "0d6d62b6714d151acb88a4c914f4c1a9b828ed09",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "appointed_on": "2010-06-11",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "links": {
+          "self": "/company/05150526/appointments/EZzZyk88sdn5npLyy_vNHTS4Am4",
+          "officer": {
+            "appointments": "/officers/9rTELS9WKtzj_obTqKwoza2cPuo/appointments"
+          }
+        },
+        "name": "MCCOMIE, Linda Maria",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "46683410001",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-10"
+        }
+      },
+      {
+        "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+        "address": {
+          "address_line_1": "Church Street",
+          "locality": "London",
+          "postal_code": "NW8 8EP",
+          "premises": "26"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "links": {
+          "self": "/company/05150526/appointments/25PXLssWvOxPb9SPA_B7FMcUMsQ",
+          "officer": {
+            "appointments": "/officers/8d_bnTiwfxh8JIr3YfuwkmkWkCg/appointments"
+          }
+        },
+        "name": "SWIFT INCORPORATIONS LIMITED",
+        "officer_role": "corporate-nominee-secretary",
+        "resigned_on": "2004-06-10",
+        "person_number": "900008300001"
+      },
+      {
+        "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+        "address": {
+          "address_line_1": "1 Castle Rose",
+          "address_line_2": "Woughton Park",
+          "locality": "Milton Keynes",
+          "postal_code": "MK6 3BQ"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "date_of_birth": {
+          "month": 1,
+          "year": 1949
+        },
+        "links": {
+          "self": "/company/05150526/appointments/5eow7PFj-lJ9vTB6-RQGMf6NEok",
+          "officer": {
+            "appointments": "/officers/pOjCel8bGPQmL2KJVSlip7WdtsY/appointments"
+          }
+        },
+        "name": "HUMPHRIES, Patricia Jane",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2004-06-30",
+        "person_number": "98258080001"
+      },
+      {
+        "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+        "address": {
+          "address_line_1": "12 Steeping Road",
+          "address_line_2": "Long Lawford",
+          "locality": "Rugby",
+          "postal_code": "CV23 9SS"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "date_of_birth": {
+          "month": 3,
+          "year": 1966
+        },
+        "links": {
+          "self": "/company/05150526/appointments/eOsc8tBIpJ-E1VQB7zjuFOoK7i4",
+          "officer": {
+            "appointments": "/officers/F8HJ2k25BM9kHbAvajZmkjJpCPU/appointments"
+          }
+        },
+        "name": "WILDING, Janice Caroline",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2004-06-30",
+        "person_number": "98258070001"
+      },
+      {
+        "etag": "4758b0ecce2bde491bd9bc7bd64917e9e7f481fa",
+        "address": {
+          "address_line_1": "60 Colts Holm Road",
+          "address_line_2": "Old Wolverton",
+          "locality": "Milton Keynes",
+          "postal_code": "MK12 5QD",
+          "region": "Bucks"
+        },
+        "appointed_on": "2004-06-10",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 5,
+          "year": 1965
+        },
+        "links": {
+          "self": "/company/05150526/appointments/ZCzANFNHt4iWjevQTQ7twUoUomI",
+          "officer": {
+            "appointments": "/officers/hvkkJJsGj9I4BBPEEjVn_gY7qew/appointments"
+          }
+        },
+        "name": "WILDING, Richard David",
+        "nationality": "British",
+        "officer_role": "director",
+        "resigned_on": "2010-06-11",
+        "person_number": "98258060001"
+      }
+    ],
+    "items_per_page": 35,
+    "kind": "officer-list",
+    "links": {
+      "self": "/company/05150526/officers"
+    },
+    "resigned_count": 4,
+    "inactive_count": 0,
+    "start_index": 0,
+    "total_results": 7
+  },
+  "psc_ownership": {
+    "items_per_page": 25,
+    "items": [
+      {
+        "etag": "152e8e1f71367979b1ba563f5fd6698c9f0dbac3",
+        "notified_on": "2016-06-30",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 2,
+          "year": 1955
+        },
+        "name": "Mrs Linda Maria Mccomie",
+        "name_elements": {
+          "title": "Mrs",
+          "surname": "Mccomie",
+          "forename": "Linda",
+          "middle_name": "Maria"
+        },
+        "links": {
+          "self": "/company/05150526/persons-with-significant-control/individual/RRlPh8_1HxIHChMUKJMEy4MOs-4"
+        },
+        "nationality": "British",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-21"
+        },
+        "ceased": false,
+        "kind": "individual-person-with-significant-control",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "natures_of_control": [
+          "ownership-of-shares-25-to-50-percent",
+          "voting-rights-25-to-50-percent"
+        ]
+      },
+      {
+        "etag": "c4422aa490df97fd853e3ea76c463eae964bfafd",
+        "notified_on": "2016-06-30",
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 6,
+          "year": 1949
+        },
+        "name": "Dr Andrew Stephen Humphries",
+        "name_elements": {
+          "title": "Dr",
+          "surname": "Humphries",
+          "forename": "Andrew",
+          "middle_name": "Stephen"
+        },
+        "links": {
+          "self": "/company/05150526/persons-with-significant-control/individual/-blWdG1N_ZvzI6LN2vfUYTxguZs"
+        },
+        "nationality": "British",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-21"
+        },
+        "ceased": false,
+        "kind": "individual-person-with-significant-control",
+        "address": {
+          "address_line_1": "Knowlhill",
+          "country": "United Kingdom",
+          "locality": "Milton Keynes",
+          "postal_code": "MK5 8FT",
+          "premises": "C/O Ace Accounts And Tax Ltd, 2 Whittle Court",
+          "region": "Buckinghamshire"
+        },
+        "natures_of_control": [
+          "ownership-of-shares-50-to-75-percent",
+          "voting-rights-50-to-75-percent"
+        ]
+      }
+    ],
+    "start_index": 0,
+    "total_results": 2,
+    "active_count": 2,
+    "ceased_count": 0,
+    "links": {
+      "self": "/company/05150526/persons-with-significant-control"
+    }
+  },
+  "filing_history": {
+    "filing_history_status": "filing-history-available",
+    "items": [
+      {
+        "transaction_id": "MzUyNjU0OTUwNmFkaXF6a2N4",
+        "barcode": "AF411200",
+        "type": "SH06",
+        "date": "2026-06-23",
+        "category": "capital",
+        "description": "capital-cancellation-shares",
+        "description_values": {
+          "date": "2025-06-11",
+          "capital": [
+            {
+              "currency": "GBP",
+              "figure": "102"
+            }
+          ]
+        },
+        "pages": 4,
+        "action_date": "2025-06-11",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/05150526/filing-history/MzUyNjU0OTUwNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/WXdtoAmK72ezDZcafSQFEaSZp_GGhBO4Nydl4UnKJ-k"
+        }
+      },
+      {
+        "transaction_id": "MzUyNjU0OTUwNWFkaXF6a2N4",
+        "barcode": "AF411208",
+        "type": "SH03",
+        "date": "2026-06-23",
+        "category": "capital",
+        "description": "capital-return-purchase-own-shares",
+        "pages": 4,
+        "paper_filed": true,
+        "links": {
+          "self": "/company/05150526/filing-history/MzUyNjU0OTUwNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/FEoe_SPkdzdWXwS7lwKHa5G1iOFWq9wINqtwnkzUJSM"
+        }
+      },
+      {
+        "transaction_id": "MzUyNjIwOTU1OGFkaXF6a2N4",
+        "barcode": "XF3YGZTT",
+        "type": "CS01",
+        "date": "2026-06-10",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2026-06-10"
+        },
+        "pages": 5,
+        "action_date": "2026-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzUyNjIwOTU1OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/guBOYbGrSvAAMnyXrF7KOkkVqlptQ1lfOcyjzrpAwsU"
+        }
+      },
+      {
+        "transaction_id": "MzUxMDUxNTQxMWFkaXF6a2N4",
+        "barcode": "XEXYI9JT",
+        "type": "AA",
+        "date": "2026-03-16",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2025-09-30"
+        },
+        "pages": 4,
+        "action_date": "2025-09-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzUxMDUxNTQxMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9N7sJvwmt0UtuWyTEEZ4q3BRBLLktpAuRGa4ZCxRSxI"
+        }
+      },
+      {
+        "transaction_id": "MzQ5MzE1ODA5MmFkaXF6a2N4",
+        "barcode": "XEH1DKAH",
+        "type": "AA01",
+        "date": "2025-12-09",
+        "category": "accounts",
+        "description": "change-account-reference-date-company-previous-extended",
+        "description_values": {
+          "made_up_date": "2025-03-31",
+          "new_date": "2025-09-30"
+        },
+        "pages": 1,
+        "action_date": "2025-09-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzQ5MzE1ODA5MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/DAFbaqXvSVIVAML1JPrMBQdVTo5Pxg80mXE1N2Qv2bU"
+        }
+      },
+      {
+        "transaction_id": "MzQ2OTQ3OTIwMGFkaXF6a2N4",
+        "barcode": "XE4FARC9",
+        "type": "CS01",
+        "date": "2025-06-10",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2025-06-10"
+        },
+        "pages": 5,
+        "action_date": "2025-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzQ2OTQ3OTIwMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/upZet_b56xRN69D3HNT_Dau-eE82SpB6x5i0VWbvc7c"
+        }
+      },
+      {
+        "transaction_id": "MzQ0OTE0Nzc2OWFkaXF6a2N4",
+        "barcode": "XDIV28QG",
+        "type": "AA",
+        "date": "2024-12-27",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2024-03-31"
+        },
+        "pages": 4,
+        "action_date": "2024-03-31",
+        "links": {
+          "self": "/company/05150526/filing-history/MzQ0OTE0Nzc2OWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/C7p0khXCC6fBrXcZskKfIWli2Sd2WAgCTafKJ88EuDI"
+        }
+      },
+      {
+        "transaction_id": "MzQyNDcxMjI1M2FkaXF6a2N4",
+        "barcode": "XD4Z40BD",
+        "type": "CS01",
+        "date": "2024-06-10",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2024-06-10"
+        },
+        "pages": 5,
+        "action_date": "2024-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzQyNDcxMjI1M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/SPJJM4kHPhDpsMK_SoaLZJ0eeOm2MBPn6O1M09NL8js"
+        }
+      },
+      {
+        "transaction_id": "MzQwMzM0MzM5M2FkaXF6a2N4",
+        "barcode": "XCI640O2",
+        "type": "AA",
+        "date": "2023-12-11",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2023-03-31"
+        },
+        "pages": 4,
+        "action_date": "2023-03-31",
+        "links": {
+          "self": "/company/05150526/filing-history/MzQwMzM0MzM5M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/dAYx_BfGX4FJsrnqMeCUDk6FM6uu_b3lPNYn3hTD2Fo"
+        }
+      },
+      {
+        "transaction_id": "MzM4MzE3MTA4M2FkaXF6a2N4",
+        "barcode": "XC5P8KRF",
+        "type": "CS01",
+        "date": "2023-06-15",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2023-06-10"
+        },
+        "pages": 3,
+        "action_date": "2023-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzM4MzE3MTA4M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/7lAXi6-1GJ4U1GBftjLUJqjSWwFMrCQoaTNQ35j1ZAs"
+        }
+      },
+      {
+        "transaction_id": "MzM2MzQwODQzM2FkaXF6a2N4",
+        "barcode": "XBJEMNB7",
+        "type": "AA",
+        "date": "2022-12-22",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2022-03-31"
+        },
+        "pages": 4,
+        "action_date": "2022-03-31",
+        "links": {
+          "self": "/company/05150526/filing-history/MzM2MzQwODQzM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/bKmtrqSjd7Jqaft_vMWeQGjfSPJvYvZ1R40EMswpxOY"
+        }
+      },
+      {
+        "transaction_id": "MzM0MzY0MDgzN2FkaXF6a2N4",
+        "barcode": "XB6T6UXS",
+        "type": "CS01",
+        "date": "2022-06-24",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2022-06-10"
+        },
+        "pages": 5,
+        "action_date": "2022-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzM0MzY0MDgzN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/61eNlGWwXEkxPRILs_h9VRFlpgFfiV5sEV3WaJQeIIY"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTc3Mjc5M2FkaXF6a2N4",
+        "barcode": "XAV0XPJN",
+        "type": "CH01",
+        "date": "2022-01-05",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2022-01-05",
+          "officer_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 2,
+        "action_date": "2022-01-05",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyNTc3Mjc5M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/erUtpuDO4KKsLAEJ1QrpwKzeI08gfqQ-_4166NQv7XQ"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTc3Mjc0NGFkaXF6a2N4",
+        "barcode": "XAV0XP9M",
+        "type": "CH03",
+        "date": "2022-01-05",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-secretary-company-with-change-date",
+        "description_values": {
+          "change_date": "2022-01-05",
+          "officer_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 1,
+        "action_date": "2022-01-05",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyNTc3Mjc0NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/xIHcKdZW-qX7wAwVj4uylp7WUSVFObrMP9mXs34vCUE"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTc3MjczN2FkaXF6a2N4",
+        "barcode": "XAV0XP7L",
+        "type": "PSC04",
+        "date": "2022-01-05",
+        "category": "persons-with-significant-control",
+        "subcategory": "change",
+        "description": "change-to-a-person-with-significant-control",
+        "description_values": {
+          "change_date": "2022-01-05",
+          "psc_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 2,
+        "action_date": "2022-01-05",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyNTc3MjczN2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-skBfL1G2Cq_kLabyLINySHo3OotreBP7rULNAlhZys"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTc3MjY2NmFkaXF6a2N4",
+        "barcode": "XAV0XOU3",
+        "type": "PSC04",
+        "date": "2022-01-05",
+        "category": "persons-with-significant-control",
+        "subcategory": "change",
+        "description": "change-to-a-person-with-significant-control",
+        "description_values": {
+          "change_date": "2022-01-05",
+          "psc_name": "Dr Andrew Stephen Humphries"
+        },
+        "pages": 2,
+        "action_date": "2022-01-05",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyNTc3MjY2NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/flrhwPz6MsLQHjrcODE489gIwVWjaJRGGNxILkyLuos"
+        }
+      },
+      {
+        "transaction_id": "MzMyNTc1NzUwM2FkaXF6a2N4",
+        "barcode": "XAV0VYGF",
+        "type": "AD01",
+        "date": "2022-01-05",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2022-01-05",
+          "old_address": "The Stable Yard Vicarage Road Stony Stratford Milton Keynes Buckinghamshire MK11 1BN England",
+          "new_address": "C/O Ace Accounts and Tax Ltd, 2 Whittle Court Knowlhill Milton Keynes Buckinghamshire MK5 8FT"
+        },
+        "pages": 1,
+        "action_date": "2022-01-05",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyNTc1NzUwM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/dn6jzE38TpPsxopvwfxi_fa6vLxYUoyHYuOUXZv-DBY"
+        }
+      },
+      {
+        "transaction_id": "MzMyMzg1NTk5NmFkaXF6a2N4",
+        "barcode": "XAJHKD80",
+        "type": "AA",
+        "date": "2021-12-16",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-micro-entity",
+        "description_values": {
+          "made_up_date": "2021-03-31"
+        },
+        "pages": 4,
+        "action_date": "2021-03-31",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMyMzg1NTk5NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/21Ct1kxDaspo4lT9UR3eg_JkJMOJFsuYXJWNs-linS4"
+        }
+      },
+      {
+        "transaction_id": "MzMwNDQzNTk1MGFkaXF6a2N4",
+        "barcode": "XA6OU8L5",
+        "type": "CS01",
+        "date": "2021-06-15",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2021-06-10"
+        },
+        "pages": 5,
+        "action_date": "2021-06-10",
+        "links": {
+          "self": "/company/05150526/filing-history/MzMwNDQzNTk1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/gvSCkrl9n6zL44rEvCKl_rID5wuAxmE4x_8P7YPAs30"
+        }
+      },
+      {
+        "transaction_id": "MzI5MTQyNDQ5NGFkaXF6a2N4",
+        "barcode": "X9YDNAWQ",
+        "type": "AA",
+        "date": "2021-02-15",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2020-03-31"
+        },
+        "pages": 10,
+        "action_date": "2020-03-31",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI5MTQyNDQ5NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/vBRLLhySgOGunl2dfkHTRblkVonL6vmNfBsfSHlmIu4"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDc2MDU5MWFkaXF6a2N4",
+        "barcode": "X9IX77IO",
+        "type": "PSC04",
+        "date": "2020-11-30",
+        "category": "persons-with-significant-control",
+        "subcategory": "change",
+        "description": "change-to-a-person-with-significant-control",
+        "description_values": {
+          "change_date": "2020-11-30",
+          "psc_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI4NDc2MDU5MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/ZFbgtKFOVMZcM0IbVpMxCfa01XaXDZ4lWzi9T7FXqIU"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDc2MDMzM2FkaXF6a2N4",
+        "barcode": "X9IX76GJ",
+        "type": "CH01",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-director-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-11-30",
+          "officer_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI4NDc2MDMzM2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/fLER-jrDgcghyBBAq-H95D2CMknxwyMsMvpfTeJbm2s"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDc2MDI0MWFkaXF6a2N4",
+        "barcode": "X9IX76GR",
+        "type": "CH03",
+        "date": "2020-11-30",
+        "category": "officers",
+        "subcategory": "change",
+        "description": "change-person-secretary-company-with-change-date",
+        "description_values": {
+          "change_date": "2020-11-30",
+          "officer_name": "Mrs Linda Maria Mccomie"
+        },
+        "pages": 1,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI4NDc2MDI0MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/oiFe0YYhGD28q2RgzXsQzpTe-D-rDAq8yGd6zluAi1E"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDc2MDIwNGFkaXF6a2N4",
+        "barcode": "X9IX760X",
+        "type": "PSC04",
+        "date": "2020-11-30",
+        "category": "persons-with-significant-control",
+        "subcategory": "change",
+        "description": "change-to-a-person-with-significant-control",
+        "description_values": {
+          "change_date": "2020-11-30",
+          "psc_name": "Dr Andrew Stephen Humphries"
+        },
+        "pages": 2,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI4NDc2MDIwNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/TqhWp9mPToTW7gwzKahEZG4TuFvW2yDa-VhbYMwrreo"
+        }
+      },
+      {
+        "transaction_id": "MzI4NDc1OTkzNmFkaXF6a2N4",
+        "barcode": "X9IX74T7",
+        "type": "AD01",
+        "date": "2020-11-30",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2020-11-30",
+          "old_address": "60 Colts Holm Road Old Wolverton Milton Keynes Bucks MK12 5QD",
+          "new_address": "The Stable Yard Vicarage Road Stony Stratford Milton Keynes Buckinghamshire MK11 1BN"
+        },
+        "pages": 1,
+        "action_date": "2020-11-30",
+        "links": {
+          "self": "/company/05150526/filing-history/MzI4NDc1OTkzNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/KGiytNDW5NdwWOwX-_12GyALKySX0B3ecSOc9fL6-YU"
+        }
+      }
+    ],
+    "items_per_page": 25,
+    "start_index": 0,
+    "total_count": 73
+  },
+  "charges": {
+    "etag": "d3c7b244a03e8a957ba384481ef29e485c1cd693",
+    "total_count": 0,
+    "unfiltered_count": 0,
+    "satisfied_count": 0,
+    "part_satisfied_count": 0,
+    "items": []
+  },
+  "insolvency": {},
+  "officer_networks": [
+    {
+      "officer_name": "MCCOMIE, Linda Maria",
+      "companies": [
+        {
+          "name": "MCCOMIE CONSULTANCY SERVICES LIMITED",
+          "number": "04560866",
+          "role": "director",
+          "appointed": "2002-10-11",
+          "resigned": null
+        },
+        {
+          "name": "MCCOMIE CONSULTANCY SERVICES LIMITED",
+          "number": "04560866",
+          "role": "secretary",
+          "appointed": "2002-10-11",
+          "resigned": null
+        },
+        {
+          "name": "ALINA ORCHESTRA LIMITED",
+          "number": "10926978",
+          "role": "director",
+          "appointed": "2017-08-22",
+          "resigned": "2025-04-03"
+        },
+        {
+          "name": "MKCO LIMITED",
+          "number": "01268436",
+          "role": "director",
+          "appointed": "2008-07-29",
+          "resigned": "2012-05-17"
+        }
+      ]
+    },
+    {
+      "officer_name": "HUMPHRIES, Andrew Stephen, Dr",
+      "companies": [
+        {
+          "name": "INTEGRATED SKY LIMITED",
+          "number": "08317019",
+          "role": "director",
+          "appointed": "2012-12-04",
+          "resigned": "2018-10-04"
+        }
+      ]
+    },
+    {
+      "officer_name": "MCCOMIE, Linda Maria",
+      "companies": [
+        {
+          "name": "MCCOMIE CONSULTANCY SERVICES LIMITED",
+          "number": "04560866",
+          "role": "director",
+          "appointed": "2002-10-11",
+          "resigned": null
+        },
+        {
+          "name": "MCCOMIE CONSULTANCY SERVICES LIMITED",
+          "number": "04560866",
+          "role": "secretary",
+          "appointed": "2002-10-11",
+          "resigned": null
+        },
+        {
+          "name": "ALINA ORCHESTRA LIMITED",
+          "number": "10926978",
+          "role": "director",
+          "appointed": "2017-08-22",
+          "resigned": "2025-04-03"
+        },
+        {
+          "name": "MKCO LIMITED",
+          "number": "01268436",
+          "role": "director",
+          "appointed": "2008-07-29",
+          "resigned": "2012-05-17"
+        }
+      ]
+    },
+    {
+      "officer_name": "SWIFT INCORPORATIONS LIMITED",
+      "companies": [
+        {
+          "name": "MILL WORKS MANAGEMENT LIMITED",
+          "number": "06511364",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-21",
+          "resigned": "2009-06-24"
+        },
+        {
+          "name": "THE OLD STUDIOS RESIDENTS MANAGEMENT COMPANY LIMITED",
+          "number": "06510781",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "THE OLD STUDIOS ESTATE ROAD RESIDENTS MANAGEMENT COMPANY LIMITED",
+          "number": "06510792",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "6 THE SQUARE CHUDLEIGH MANAGEMENT LIMITED",
+          "number": "06510822",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "98 CHAMBERLAYNE ROAD LIMITED",
+          "number": "06510798",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "HAZEL MEWS MANAGEMENT COMPANY LIMITED",
+          "number": "06510820",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "J S P THOMPSON LIMITED",
+          "number": "06510681",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-20",
+          "resigned": "2008-02-20"
+        },
+        {
+          "name": "PRINCES MANSIONS (CARDIFF) MANAGEMENT COMPANY LIMITED",
+          "number": "06509164",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-19",
+          "resigned": "2008-02-19"
+        },
+        {
+          "name": "STANHOPE ROAD (N129DZ) RTM COMPANY LIMITED",
+          "number": "06506081",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-18",
+          "resigned": "2008-02-18"
+        },
+        {
+          "name": "CLARION UK MIDCO LIMITED",
+          "number": "06501933",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "CLARION UK HOLDCO LIMITED",
+          "number": "06501951",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "OXSHOTT MANAGEMENT COMPANY LIMITED",
+          "number": "06502053",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "RONDO MEDIA CYF",
+          "number": "06502186",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "CLARION UK TOPCO LIMITED",
+          "number": "06501958",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "CLARION ACQUISITION LIMITED",
+          "number": "06501939",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "THE SQUIRRELS CHILDCARE CENTRE LIMITED",
+          "number": "06502249",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "THE MAYFAIR ARTS FESTIVAL LIMITED",
+          "number": "06501948",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "EQUINOX RTM COMPANY LIMITED",
+          "number": "06502239",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-12",
+          "resigned": "2008-02-12"
+        },
+        {
+          "name": "CROMWELL CORPORATE PROTECTOR LIMITED",
+          "number": "06498906",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-11",
+          "resigned": "2008-02-11"
+        },
+        {
+          "name": "27 BELSIZE PARK LIMITED",
+          "number": "06498398",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-08",
+          "resigned": "2008-02-08"
+        },
+        {
+          "name": "7 LADBROKE SQUARE LTD",
+          "number": "06497275",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-07",
+          "resigned": "2008-02-07"
+        },
+        {
+          "name": "ADS SIGNS LTD",
+          "number": "06497290",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-07",
+          "resigned": "2008-02-07"
+        },
+        {
+          "name": "159 FERNHEAD ROAD RTM COMPANY LIMITED",
+          "number": "06497282",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-07",
+          "resigned": "2008-02-07"
+        },
+        {
+          "name": "THE WONDERFUL FOUNDATION LIMITED",
+          "number": "06497304",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-07",
+          "resigned": "2008-02-07"
+        },
+        {
+          "name": "147 DORCHESTER ROAD WEYMOUTH MANAGEMENT LIMITED",
+          "number": "06495750",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-06",
+          "resigned": "2008-02-06"
+        },
+        {
+          "name": "PAUL BEEBEE WEALTH MANAGEMENT LTD",
+          "number": "06495753",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-06",
+          "resigned": "2008-02-06"
+        },
+        {
+          "name": "CYAN MANAGEMENT COMPANY LIMITED",
+          "number": "06495747",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-06",
+          "resigned": "2008-02-06"
+        },
+        {
+          "name": "SPICE OF ASIA LTD",
+          "number": "06495758",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-06",
+          "resigned": "2008-02-06"
+        },
+        {
+          "name": "HC PROPERTY MANAGEMENT (CHESTER) LIMITED",
+          "number": "06495748",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-06",
+          "resigned": "2008-02-06"
+        },
+        {
+          "name": "58 CLAREMONT ROAD SEAFORD LIMITED",
+          "number": "06492150",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-04",
+          "resigned": "2008-02-04"
+        },
+        {
+          "name": "111 KENNINGTON PARK ROAD MANAGEMENT LIMITED",
+          "number": "06491931",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-04",
+          "resigned": "2008-02-04"
+        },
+        {
+          "name": "FOUR CI LIMITED",
+          "number": "06491993",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-04",
+          "resigned": "2008-02-04"
+        },
+        {
+          "name": "DUNCAN COURT ASSOCIATES RTM COMPANY LIMITED",
+          "number": "06491152",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-01",
+          "resigned": "2008-02-01"
+        },
+        {
+          "name": "THE NEWLAND (ULVERSTON) ESTATE MAINTENANCE COMPANY LTD.",
+          "number": "06491164",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-01",
+          "resigned": "2008-02-01"
+        },
+        {
+          "name": "NEIL SMITH BUILDING MAINTENANCE LTD",
+          "number": "06491303",
+          "role": "corporate-nominee-secretary",
+          "appointed": "2008-02-01",
+          "resigned": "2008-02-01"
+        }
+      ]
+    },
+    {
+      "officer_name": "WILDING, Richard David",
+      "companies": [
+        {
+          "name": "LEIDOS SUPPLY, LIMITED",
+          "number": "09353172",
+          "role": "director",
+          "appointed": "2018-02-12",
+          "resigned": null
+        },
+        {
+          "name": "PTRC EDUCATION AND RESEARCH SERVICES LIMITED",
+          "number": "01243187",
+          "role": "director",
+          "appointed": "2015-10-01",
+          "resigned": "2019-10-23"
+        },
+        {
+          "name": "THE CHARTERED INSTITUTE OF LOGISTICS AND TRANSPORT IN THE UK",
+          "number": "02629347",
+          "role": "director",
+          "appointed": "2011-10-20",
+          "resigned": "2019-10-20"
+        }
+      ]
+    }
+  ]
+}

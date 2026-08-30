@@ -3,9 +3,12 @@ import os
 
 import requests
 
+cadence_equity = "10238359"
+scci = "05150526"
+jlas = "08686757"
 
 API_BASE_URL = "https://api.company-information.service.gov.uk"
-COMPANY_NUMBER = "10238359"
+COMPANY_NUMBER = jlas
 MAX_ITEMS = 10
 
 
@@ -235,6 +238,7 @@ def main():
 
     client = CompaniesHouseClient(api_key.strip())
 
+
     profile = client.company_profile(COMPANY_NUMBER)
     search_results = client.search(profile["company_name"])
     officers = client.officers(COMPANY_NUMBER)
@@ -255,7 +259,9 @@ def main():
         "officer_networks": officer_networks,
     }
 
-    output_file = f"company_data_{COMPANY_NUMBER}.json"
+    company_name = profile['company_name'].lower().replace(" ","-")
+
+    output_file = f"company_data_{company_name}.json"
     with open(output_file, "w", encoding="utf-8") as file:
         json.dump(results, file, indent=2, ensure_ascii=False)
 
