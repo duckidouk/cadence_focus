@@ -3,3 +3,4 @@ ch-api
 pandas
 plotly
 python-dotenv
+requests

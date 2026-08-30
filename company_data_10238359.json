@@ -1,0 +1,1592 @@
+{
+  "company_profile": {
+    "accounts": {
+      "accounting_reference_date": {
+        "day": "30",
+        "month": "06"
+      },
+      "last_accounts": {
+        "made_up_to": "2025-06-30",
+        "period_end_on": "2025-06-30",
+        "period_start_on": "2024-07-01",
+        "type": "total-exemption-full"
+      },
+      "next_accounts": {
+        "due_on": "2027-03-31",
+        "overdue": false,
+        "period_end_on": "2026-06-30",
+        "period_start_on": "2025-07-01"
+      },
+      "next_due": "2027-03-31",
+      "next_made_up_to": "2026-06-30",
+      "overdue": false
+    },
+    "can_file": true,
+    "company_name": "CADENCE EQUITY PARTNERS LIMITED",
+    "company_number": "10238359",
+    "company_status": "active",
+    "confirmation_statement": {
+      "last_made_up_to": "2026-06-16",
+      "next_due": "2027-06-30",
+      "next_made_up_to": "2027-06-16",
+      "overdue": false
+    },
+    "date_of_creation": "2016-06-17",
+    "etag": "467cfe8325a5c7dceda112fa74d5f861e6f02359",
+    "has_charges": false,
+    "has_insolvency_history": false,
+    "jurisdiction": "england-wales",
+    "links": {
+      "persons_with_significant_control": "/company/10238359/persons-with-significant-control",
+      "self": "/company/10238359",
+      "filing_history": "/company/10238359/filing-history",
+      "officers": "/company/10238359/officers"
+    },
+    "previous_company_names": [
+      {
+        "ceased_on": "2016-09-29",
+        "effective_from": "2016-06-17",
+        "name": "PAISH CAPITAL PARTNERS LIMITED"
+      }
+    ],
+    "registered_office_address": {
+      "address_line_1": "3 Alexander Street",
+      "country": "England",
+      "locality": "London",
+      "postal_code": "W2 5NT"
+    },
+    "registered_office_is_in_dispute": false,
+    "sic_codes": [
+      "64303"
+    ],
+    "type": "ltd",
+    "undeliverable_registered_office_address": false,
+    "has_super_secure_pscs": false
+  },
+  "search_results": {
+    "items": [
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2016-06-17",
+        "company_type": "ltd",
+        "company_number": "10238359",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "title": "CADENCE EQUITY PARTNERS LIMITED",
+        "address_snippet": "3 Alexander Street, London, England, W2 5NT",
+        "description": "10238359 - Incorporated on 17 June 2016",
+        "links": {
+          "self": "/company/10238359"
+        },
+        "snippet": "PAISH CAPITAL PARTNERS LIMITED",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2026-08-25",
+        "company_type": "ltd",
+        "company_number": "17419372",
+        "address": {
+          "address_line_1": "Cotton Avenue",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W3 6YE",
+          "premises": "27"
+        },
+        "title": "CADENCE & PARTNERS LTD",
+        "address_snippet": "27 Cotton Avenue, London, England, W3 6YE",
+        "description": "17419372 - Incorporated on 25 August 2026",
+        "links": {
+          "self": "/company/17419372"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2023-06-16",
+        "company_type": "ltd",
+        "company_number": "14940988",
+        "address": {
+          "address_line_1": "Firecrest Court",
+          "country": "United Kingdom",
+          "locality": "Warrington",
+          "postal_code": "WA1 1RG",
+          "premises": "320"
+        },
+        "title": "CADENCE INDUSTRIAL PARTNERSHIPS LTD",
+        "address_snippet": "320 Firecrest Court, Warrington, United Kingdom, WA1 1RG",
+        "description": "14940988 - Incorporated on 16 June 2023",
+        "links": {
+          "self": "/company/14940988"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2020-03-12",
+        "company_type": "llp",
+        "company_number": "OC431121",
+        "address": {
+          "address_line_1": "Queen Victoria Court",
+          "country": "United Kingdom",
+          "locality": "Farnborough",
+          "postal_code": "GU14 8AR",
+          "premises": "24",
+          "region": "Hampshire"
+        },
+        "title": "CADENCE100 PARTNERS LLP",
+        "address_snippet": "24 Queen Victoria Court, Farnborough, Hampshire, United Kingdom, GU14 8AR",
+        "description": "OC431121 - Incorporated on 12 March 2020",
+        "links": {
+          "self": "/company/OC431121"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-06-10",
+        "company_type": "ltd",
+        "company_number": "16509408",
+        "address": {
+          "address_line_1": "City Road",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "EC1V 2NX",
+          "premises": "128"
+        },
+        "title": "CADENCE PARTNERS LTD",
+        "address_snippet": "128 City Road, London, United Kingdom, EC1V 2NX",
+        "description": "16509408 - Incorporated on 10 June 2025",
+        "links": {
+          "self": "/company/16509408"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2012-04-25",
+        "date_of_cessation": "2024-11-12",
+        "company_type": "ltd",
+        "company_number": "08045695",
+        "address": {
+          "address_line_1": "Cemetery Lane",
+          "country": "England",
+          "locality": "Hadlow",
+          "postal_code": "TN11 0LT",
+          "premises": "The Stables Goblands Farm Business Centre",
+          "region": "Kent"
+        },
+        "title": "CADENCE PARTNERSHIP SERVICES LTD",
+        "address_snippet": "The Stables Goblands Farm Business Centre, Cemetery Lane, Hadlow, Kent, England, TN11 0LT",
+        "description": "08045695 - Dissolved on 12 November 2024",
+        "links": {
+          "self": "/company/08045695"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2013-11-13",
+        "date_of_cessation": "2024-11-05",
+        "company_type": "llp",
+        "company_number": "SO304665",
+        "address": {
+          "address_line_1": "Dublin Street",
+          "locality": "Edinburgh",
+          "postal_code": "EH3 6NL",
+          "premises": "61"
+        },
+        "title": "CADENCE INVESTMENT PARTNERS LLP",
+        "address_snippet": "61 Dublin Street, Edinburgh, EH3 6NL",
+        "description": "SO304665 - Dissolved on 5 November 2024",
+        "links": {
+          "self": "/company/SO304665"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2007-07-05",
+        "company_type": "llp",
+        "company_number": "OC329615",
+        "address": {
+          "address_line_1": "Hadlow",
+          "country": "England",
+          "locality": "Tonbridge",
+          "postal_code": "TN11 0LT",
+          "premises": "Tne Stables Cemetery Lane"
+        },
+        "title": "ASB PARTNERS LLP",
+        "address_snippet": "Tne Stables Cemetery Lane, Hadlow, Tonbridge, England, TN11 0LT",
+        "description": "OC329615 - Incorporated on 5 July 2007",
+        "links": {
+          "self": "/company/OC329615"
+        },
+        "snippet": "CADENCE PARTNERSHIP LLP",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2023-01-19",
+        "date_of_cessation": "2025-12-02",
+        "company_type": "ltd",
+        "company_number": "14604125",
+        "address": {
+          "address_line_1": "96 Kensington High Street",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "W8 4SG",
+          "premises": "Pavilion Kensington"
+        },
+        "title": "TWO LIONS PARTNERS (CALADRIUS) GP LIMITED",
+        "address_snippet": "Pavilion Kensington, 96 Kensington High Street, London, United Kingdom, W8 4SG",
+        "description": "14604125 - Dissolved on 2 December 2025",
+        "links": {
+          "self": "/company/14604125"
+        },
+        "snippet": "TWO LIONS PARTNERS (CADENCE) GP LIMITED · TWO LIONS PARTNERS (SEKHMET) GP LIMITED",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2012-01-03",
+        "date_of_cessation": "2018-07-24",
+        "company_type": "ltd",
+        "company_number": "07894909",
+        "address": {
+          "address_line_1": "Whitworth Road",
+          "locality": "Crawley",
+          "postal_code": "RH11 7XL",
+          "premises": "C/O Bm Advisory Arundel House 1 Amberley Court",
+          "region": "West Sussex"
+        },
+        "title": "ZBF9 LIMITED",
+        "address_snippet": "C/O Bm Advisory Arundel House 1 Amberley Court Whitworth Road, Crawley, West Sussex, RH11 7XL",
+        "description": "07894909 - Dissolved on 24 July 2018",
+        "links": {
+          "self": "/company/07894909"
+        },
+        "snippet": "CADENCE PARTNERS",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2024-12-11",
+        "company_type": "ltd",
+        "company_number": "16131368",
+        "address": {
+          "address_line_1": "Floor Office",
+          "address_line_2": "205 Regent Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W1B 4HB",
+          "premises": "4th"
+        },
+        "title": "AB EQUITY PARTNERS LTD",
+        "address_snippet": "4th Floor Office, 205 Regent Street, London, England, W1B 4HB",
+        "description": "16131368 - Incorporated on 11 December 2024",
+        "links": {
+          "self": "/company/16131368"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-06-05",
+        "company_type": "ltd",
+        "company_number": "16499681",
+        "address": {
+          "address_line_1": "Shelton Street",
+          "address_line_2": "Covent Garden",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "WC2H 9JQ",
+          "premises": "71-75"
+        },
+        "title": "AC EQUITY PARTNERS LTD",
+        "address_snippet": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+        "description": "16499681 - Incorporated on 5 June 2025",
+        "links": {
+          "self": "/company/16499681"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-02-06",
+        "company_type": "ltd",
+        "company_number": "16233597",
+        "address": {
+          "address_line_1": "Furze Platt Road",
+          "country": "United Kingdom",
+          "locality": "Maidenhead",
+          "postal_code": "SL6 6PR",
+          "premises": "Berkshire Aesthetics",
+          "region": "Berkshire"
+        },
+        "title": "AESTHETIC EQUITY PARTNERS LIMITED",
+        "address_snippet": "Berkshire Aesthetics, Furze Platt Road, Maidenhead, Berkshire, United Kingdom, SL6 6PR",
+        "description": "16233597 - Incorporated on 6 February 2025",
+        "links": {
+          "self": "/company/16233597"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2007-12-05",
+        "company_type": "ltd",
+        "company_number": "06445926",
+        "address": {
+          "address_line_1": "Davies Street",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "W1K 4LR",
+          "premises": "33"
+        },
+        "title": "AGC EQUITY PARTNERS LIMITED",
+        "address_snippet": "33 Davies Street, London, United Kingdom, W1K 4LR",
+        "description": "06445926 - Incorporated on 5 December 2007",
+        "links": {
+          "self": "/company/06445926"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2025-03-12",
+        "company_type": "ltd",
+        "company_number": "16311823",
+        "address": {
+          "address_line_1": "- COMPANIES HOUSE DEFAULT ADDRESS",
+          "locality": "Cardiff",
+          "po_box": "4385",
+          "postal_code": "CF14 8LH",
+          "premises": "16311823"
+        },
+        "title": "AJ EQUITY PARTNERS LTD",
+        "address_snippet": "4385, 16311823 - COMPANIES HOUSE DEFAULT ADDRESS, Cardiff, CF14 8LH",
+        "description": "16311823 - Incorporated on 12 March 2025",
+        "links": {
+          "self": "/company/16311823"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2018-11-07",
+        "company_type": "ltd",
+        "company_number": "11664327",
+        "address": {
+          "address_line_1": "Harley Street",
+          "address_line_2": "3beam",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W1G 7HP",
+          "premises": "86"
+        },
+        "title": "ALLIANCE EQUITY PARTNERS LTD",
+        "address_snippet": "86 Harley Street, 3beam, London, England, W1G 7HP",
+        "description": "11664327 - Incorporated on 7 November 2018",
+        "links": {
+          "self": "/company/11664327"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2016-02-23",
+        "date_of_cessation": "2026-03-17",
+        "company_type": "ltd",
+        "company_number": "10021690",
+        "address": {
+          "address_line_1": "Litchfield Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "WC2H 9TZ",
+          "premises": "26"
+        },
+        "title": "ALPH EQUITY PARTNERS LIMITED",
+        "address_snippet": "26 Litchfield Street, London, England, WC2H 9TZ",
+        "description": "10021690 - Dissolved on 17 March 2026",
+        "links": {
+          "self": "/company/10021690"
+        },
+        "snippet": "ALPH CAPITAL PARTNERS LIMITED",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2024-05-11",
+        "date_of_cessation": "2025-10-14",
+        "company_type": "ltd",
+        "company_number": "15715254",
+        "address": {
+          "address_line_1": "Floor, 86-90 Paul Street",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "EC2A 4NE",
+          "premises": "3rd",
+          "region": "England"
+        },
+        "title": "AMBIOC EQUITY PARTNERS LTD",
+        "address_snippet": "3rd Floor, 86-90 Paul Street, London, England, United Kingdom, EC2A 4NE",
+        "description": "15715254 - Dissolved on 14 October 2025",
+        "links": {
+          "self": "/company/15715254"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "dissolved-on"
+        ],
+        "company_status": "dissolved",
+        "date_of_creation": "2024-11-26",
+        "date_of_cessation": "2026-03-03",
+        "company_type": "ltd",
+        "company_number": "16103237",
+        "address": {
+          "address_line_1": "Shelton Street",
+          "address_line_2": "Covent Garden",
+          "country": "United Kingdom",
+          "locality": "London",
+          "postal_code": "WC2H 9JQ",
+          "premises": "71-75"
+        },
+        "title": "AMF EQUITY EDGE PARTNERS LTD",
+        "address_snippet": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+        "description": "16103237 - Dissolved on 3 March 2026",
+        "links": {
+          "self": "/company/16103237"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      },
+      {
+        "kind": "searchresults#company",
+        "description_identifier": [
+          "incorporated-on"
+        ],
+        "company_status": "active",
+        "date_of_creation": "2026-07-27",
+        "company_type": "ltd",
+        "company_number": "17362391",
+        "address": {
+          "address_line_1": "Clerkenwell Close",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "EC1R 0AA",
+          "premises": "15a"
+        },
+        "title": "ANNEAL EQUITY PARTNERS LIMITED",
+        "address_snippet": "15a Clerkenwell Close, London, England, EC1R 0AA",
+        "description": "17362391 - Incorporated on 27 July 2026",
+        "links": {
+          "self": "/company/17362391"
+        },
+        "snippet": "",
+        "matches": {
+          "snippet": []
+        }
+      }
+    ],
+    "kind": "search#companies",
+    "page_number": 1,
+    "items_per_page": 20,
+    "total_results": 10000,
+    "start_index": 0
+  },
+  "officers": {
+    "active_count": 2,
+    "etag": "f6df3d579521a63266e4318584b73bc5e6a249a2",
+    "items": [
+      {
+        "etag": "f6df3d579521a63266e4318584b73bc5e6a249a2",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "appointed_on": "2016-06-17",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1963
+        },
+        "links": {
+          "self": "/company/10238359/appointments/CepUZqsrtAI0BJ7J29SBqsp25gQ",
+          "officer": {
+            "appointments": "/officers/c5JRw_DLtq8LwgXblyCB5dxlw-o/appointments"
+          }
+        },
+        "name": "HOOFT, Pieter Johannes",
+        "nationality": "Dutch",
+        "officer_role": "director",
+        "person_number": "148426590001",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-18"
+        }
+      },
+      {
+        "etag": "1da1af1b54eab86efc46e606348ceb0b94d1b6ce",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "appointed_on": "2016-06-17",
+        "is_pre_1992_appointment": false,
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "links": {
+          "self": "/company/10238359/appointments/kTM8bydwMw1NdWv6rYOCLTw_bKQ",
+          "officer": {
+            "appointments": "/officers/7-1PyKHAxwApBPHt48vc2H1YcJI/appointments"
+          }
+        },
+        "name": "SZPIRO, James Lucien Alexander",
+        "nationality": "British",
+        "officer_role": "director",
+        "person_number": "136504450001",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-06-18"
+        }
+      }
+    ],
+    "items_per_page": 35,
+    "kind": "officer-list",
+    "links": {
+      "self": "/company/10238359/officers"
+    },
+    "resigned_count": 0,
+    "inactive_count": 0,
+    "start_index": 0,
+    "total_results": 2
+  },
+  "psc_ownership": {
+    "items_per_page": 25,
+    "items": [
+      {
+        "etag": "4e29c542af8ee3352e239fcbd2792395e1f14ddd",
+        "notified_on": "2016-06-17",
+        "country_of_residence": "England",
+        "date_of_birth": {
+          "month": 8,
+          "year": 1973
+        },
+        "name": "Mr James Lucien Alexander Szpiro",
+        "name_elements": {
+          "title": "Mr",
+          "surname": "Szpiro",
+          "forename": "James",
+          "middle_name": "Lucien Alexander"
+        },
+        "links": {
+          "self": "/company/10238359/persons-with-significant-control/individual/5FiG8V6xKhmzukzq6RT1elkoOGU"
+        },
+        "nationality": "British",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-07-06"
+        },
+        "ceased": false,
+        "kind": "individual-person-with-significant-control",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "natures_of_control": [
+          "ownership-of-shares-25-to-50-percent",
+          "voting-rights-25-to-50-percent"
+        ]
+      },
+      {
+        "etag": "5f58ba6e6f8c92205a4d466f04545f7dd147756a",
+        "notified_on": "2016-06-17",
+        "country_of_residence": "United Kingdom",
+        "date_of_birth": {
+          "month": 9,
+          "year": 1963
+        },
+        "name": "Mr Pieter Johannes Hooft",
+        "name_elements": {
+          "title": "Mr",
+          "surname": "Hooft",
+          "forename": "Pieter",
+          "middle_name": "Johannes"
+        },
+        "links": {
+          "self": "/company/10238359/persons-with-significant-control/individual/LbC3hTYvi5mW12N977PLS90IT9o"
+        },
+        "nationality": "Dutch",
+        "identity_verification_details": {
+          "appointment_verification_end_on": "9999-12-31",
+          "appointment_verification_start_on": "2026-07-06"
+        },
+        "ceased": false,
+        "kind": "individual-person-with-significant-control",
+        "address": {
+          "address_line_1": "Alexander Street",
+          "country": "England",
+          "locality": "London",
+          "postal_code": "W2 5NT",
+          "premises": "3"
+        },
+        "natures_of_control": [
+          "ownership-of-shares-25-to-50-percent",
+          "voting-rights-25-to-50-percent"
+        ]
+      }
+    ],
+    "start_index": 0,
+    "total_results": 2,
+    "active_count": 2,
+    "ceased_count": 0,
+    "links": {
+      "self": "/company/10238359/persons-with-significant-control"
+    }
+  },
+  "filing_history": {
+    "filing_history_status": "filing-history-available",
+    "items": [
+      {
+        "transaction_id": "MzUyNzIyNDczMWFkaXF6a2N4",
+        "barcode": "XF4EHHI2",
+        "type": "CS01",
+        "date": "2026-06-18",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2026-06-16"
+        },
+        "pages": 3,
+        "action_date": "2026-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzUyNzIyNDczMWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/KVikYSmabGGPjZSusDLqXCNfc1lrQrTT7kpWROQiDw0"
+        }
+      },
+      {
+        "transaction_id": "MzQ4NjgzMzA1MGFkaXF6a2N4",
+        "barcode": "XEEALRLU",
+        "type": "AA",
+        "date": "2025-10-30",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2025-06-30"
+        },
+        "pages": 8,
+        "action_date": "2025-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzQ4NjgzMzA1MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/BwhEJvlbxy3jHRmQT6gLID3naRNsUi9n0uHKCbk93tg"
+        }
+      },
+      {
+        "transaction_id": "MzQ3MDIxMzU0N2FkaXF6a2N4",
+        "barcode": "XE4STZQ0",
+        "type": "CS01",
+        "date": "2025-06-16",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2025-06-16"
+        },
+        "pages": 3,
+        "action_date": "2025-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzQ3MDIxMzU0N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/3ua_v2CBsFlyLfeKpBBgfbrC7hrjZrxhgjjTw9LqD-o"
+        }
+      },
+      {
+        "transaction_id": "MzQ2MDU4NjA4MWFkaXF6a2N4",
+        "barcode": "XDZB8ZLN",
+        "type": "AA",
+        "date": "2025-03-28",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2024-06-30"
+        },
+        "pages": 8,
+        "action_date": "2024-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzQ2MDU4NjA4MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/fgyorlcE638kEuHlDZoP7O8OHXPtyQKH-GZb0YJDeE4"
+        }
+      },
+      {
+        "transaction_id": "MzQyNTU2NjM1MWFkaXF6a2N4",
+        "barcode": "XD5FAGKP",
+        "type": "CS01",
+        "date": "2024-06-17",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2024-06-16"
+        },
+        "pages": 3,
+        "action_date": "2024-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzQyNTU2NjM1MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/BNb6cVLSs8LYnefVhjZVsRwNwe4n6JqgYPCU-PhlriQ"
+        }
+      },
+      {
+        "transaction_id": "MzM5NzQ2MTU2NGFkaXF6a2N4",
+        "barcode": "XCEQ461M",
+        "type": "AA",
+        "date": "2023-10-23",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2023-06-30"
+        },
+        "pages": 8,
+        "action_date": "2023-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzM5NzQ2MTU2NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/54GEI_RzLYlwfgkC19RXrWLM0Uu6xfGIWAjMeBbJzfY"
+        }
+      },
+      {
+        "transaction_id": "MzM4MzI2Mjc1MWFkaXF6a2N4",
+        "barcode": "XC5RVHKI",
+        "type": "CS01",
+        "date": "2023-06-16",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2023-06-16"
+        },
+        "pages": 3,
+        "action_date": "2023-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzM4MzI2Mjc1MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/v8dXwFIYo1W2nOZZZcbXSrwdZJbJc9G2IY-W-v7e-RE"
+        }
+      },
+      {
+        "transaction_id": "MzM1NjQwMTI4MGFkaXF6a2N4",
+        "barcode": "XBFD2OPD",
+        "type": "AA",
+        "date": "2022-10-25",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2022-06-30"
+        },
+        "pages": 8,
+        "action_date": "2022-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzM1NjQwMTI4MGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/xZ-NcQMmuXNGrugxK6BxsLUzZji79EpEZmjhL8RSxtY"
+        }
+      },
+      {
+        "transaction_id": "MzM0Mjc0NzczNmFkaXF6a2N4",
+        "barcode": "XB6A8M8J",
+        "type": "CS01",
+        "date": "2022-06-16",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2022-06-16"
+        },
+        "pages": 3,
+        "action_date": "2022-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzM0Mjc0NzczNmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/N5L38DHK5UMN3Gcvhqr-20ERbyLTkcrhGX85nayiKxI"
+        }
+      },
+      {
+        "transaction_id": "MzMyMzEyODc1MWFkaXF6a2N4",
+        "barcode": "XAIYWS1N",
+        "type": "AD01",
+        "date": "2021-12-09",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2021-12-09",
+          "old_address": "20 North Audley Street London W1K 6WE England",
+          "new_address": "3 Alexander Street London W2 5NT"
+        },
+        "pages": 1,
+        "action_date": "2021-12-09",
+        "links": {
+          "self": "/company/10238359/filing-history/MzMyMzEyODc1MWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/9YCGF_Yd91XJpOA2alrrAuNv955P5dh1671bfAcwc_0"
+        }
+      },
+      {
+        "transaction_id": "MzMxODQ4OTk1NmFkaXF6a2N4",
+        "barcode": "XAG25517",
+        "type": "AA",
+        "date": "2021-10-28",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2021-06-30"
+        },
+        "pages": 9,
+        "action_date": "2021-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzMxODQ4OTk1NmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/qoygKm6ZvHegerE1Lc0WvRoXz5eB-KQ8VlChewhuZjk"
+        }
+      },
+      {
+        "transaction_id": "MzMwNDc4MTcyMGFkaXF6a2N4",
+        "barcode": "XA6UBQK9",
+        "type": "CS01",
+        "date": "2021-06-17",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2021-06-16"
+        },
+        "pages": 3,
+        "action_date": "2021-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzMwNDc4MTcyMGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/p2Pcukm9Nzs1bzkU3iS4_T4r6z8uEkANJCP7SDSdE3M"
+        }
+      },
+      {
+        "transaction_id": "MzMwMDgwNzk3MmFkaXF6a2N4",
+        "barcode": "XA4DF5GJ",
+        "type": "AA",
+        "date": "2021-05-12",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2020-06-30"
+        },
+        "pages": 8,
+        "action_date": "2020-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzMwMDgwNzk3MmFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/nC99XEAyDS18O8N2Uh4NH9YY-ePPLFtNp0HiIQ68LSQ"
+        }
+      },
+      {
+        "transaction_id": "MzI2NzU3NTcxNWFkaXF6a2N4",
+        "barcode": "X97EQP42",
+        "type": "CS01",
+        "date": "2020-06-17",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2020-06-16"
+        },
+        "pages": 3,
+        "action_date": "2020-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzI2NzU3NTcxNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/-aNQ31dDQ83AaC6xkLCg380cufWd8XnxArvEIRwsKk4"
+        }
+      },
+      {
+        "transaction_id": "MzI2NjU2Nzc4M2FkaXF6a2N4",
+        "barcode": "X96IRRIH",
+        "type": "AA",
+        "date": "2020-06-04",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2019-06-30"
+        },
+        "pages": 8,
+        "action_date": "2019-06-30",
+        "links": {
+          "self": "/company/10238359/filing-history/MzI2NjU2Nzc4M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/C3hmClKEkq7ZRxIZeO1Bj_lHx6COeKhnzNPBrB9LDEE"
+        }
+      },
+      {
+        "transaction_id": "MzIzNzMzNDE2NGFkaXF6a2N4",
+        "barcode": "X8812EIX",
+        "type": "CS01",
+        "date": "2019-06-20",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2019-06-16"
+        },
+        "pages": 3,
+        "action_date": "2019-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzIzNzMzNDE2NGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/mwCxFgclkWe9HOrWMmRXd6g40CO9FtKxHZN9FiuESUM"
+        }
+      },
+      {
+        "transaction_id": "MzIzMDcwNDkyNGFkaXF6a2N4",
+        "barcode": "L824GIYA",
+        "type": "AA",
+        "date": "2019-04-01",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2018-06-30"
+        },
+        "pages": 7,
+        "action_date": "2018-06-30",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10238359/filing-history/MzIzMDcwNDkyNGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Wuu5QXGA6UynhdA0TGdqAclU3vWUMmRitGZ4kjUnhUU"
+        }
+      },
+      {
+        "transaction_id": "MzIwOTQyMTg5N2FkaXF6a2N4",
+        "barcode": "L79KFBIP",
+        "type": "AAMD",
+        "date": "2018-07-11",
+        "category": "accounts",
+        "description": "accounts-amended-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2017-06-30"
+        },
+        "pages": 7,
+        "action_date": "2017-06-30",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10238359/filing-history/MzIwOTQyMTg5N2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/qLHa0eQNqYtpYE4lh-MxbRt88T1om-r1n6ViVuc9j54"
+        }
+      },
+      {
+        "transaction_id": "MzIwODQwMTM4NWFkaXF6a2N4",
+        "barcode": "X78ZLOD5",
+        "type": "CS01",
+        "date": "2018-06-27",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-no-updates",
+        "description_values": {
+          "made_up_date": "2018-06-16"
+        },
+        "pages": 3,
+        "action_date": "2018-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzIwODQwMTM4NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/oKzaZ1FOCbCBz8Wavbb5i1LgzokBoS7zjOmJMOzQQCE"
+        }
+      },
+      {
+        "transaction_id": "MzIwMTY3NTc3NWFkaXF6a2N4",
+        "barcode": "L72LVYSR",
+        "type": "AA",
+        "date": "2018-04-04",
+        "category": "accounts",
+        "description": "accounts-with-accounts-type-total-exemption-full",
+        "description_values": {
+          "made_up_date": "2017-06-30"
+        },
+        "pages": 7,
+        "action_date": "2017-06-30",
+        "paper_filed": true,
+        "links": {
+          "self": "/company/10238359/filing-history/MzIwMTY3NTc3NWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/jn3K1pe5WRiN6WbDmpNrh6QJ-2OVb3gPDXreuzkxr2U"
+        }
+      },
+      {
+        "transaction_id": "MzE5NzYzNDk1OGFkaXF6a2N4",
+        "barcode": "X6ZQ3GC8",
+        "type": "AD01",
+        "date": "2018-02-13",
+        "category": "address",
+        "description": "change-registered-office-address-company-with-date-old-address-new-address",
+        "description_values": {
+          "change_date": "2018-02-13",
+          "old_address": "51 Talbot Road London W2 5JJ United Kingdom",
+          "new_address": "20 North Audley Street London W1K 6WE"
+        },
+        "pages": 1,
+        "action_date": "2018-02-13",
+        "links": {
+          "self": "/company/10238359/filing-history/MzE5NzYzNDk1OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/Ya7gQFd_HmisueB99OifXIH6-xIVk2gD24KvDfEZTRA"
+        }
+      },
+      {
+        "transaction_id": "MzE3ODM0NTMzNWFkaXF6a2N4",
+        "barcode": "X68Y7BSO",
+        "type": "CS01",
+        "date": "2017-06-19",
+        "category": "confirmation-statement",
+        "description": "confirmation-statement-with-updates",
+        "description_values": {
+          "made_up_date": "2017-06-16"
+        },
+        "pages": 6,
+        "action_date": "2017-06-16",
+        "links": {
+          "self": "/company/10238359/filing-history/MzE3ODM0NTMzNWFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/FkXFNY3IEcGkO4OR-dtmujCBitmi1tG-y1lvoGcEUXU"
+        }
+      },
+      {
+        "transaction_id": "MzE2MTE2NDM5OGFkaXF6a2N4",
+        "barcode": "X5IXXXW1",
+        "type": "SH01",
+        "date": "2016-11-03",
+        "category": "capital",
+        "description": "capital-allotment-shares",
+        "description_values": {
+          "date": "2016-07-01",
+          "capital": [
+            {
+              "currency": "GBP",
+              "figure": "75,000"
+            }
+          ]
+        },
+        "pages": 3,
+        "action_date": "2016-07-01",
+        "links": {
+          "self": "/company/10238359/filing-history/MzE2MTE2NDM5OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/a3lwoRbgJ-GfDa-uvaOt8h_OnSp7cJ6CN7B6QJ9X49Q"
+        }
+      },
+      {
+        "transaction_id": "MzE1ODU0MjE1OGFkaXF6a2N4",
+        "barcode": "X5GJ6A2H",
+        "type": "RESOLUTIONS",
+        "date": "2016-09-29",
+        "category": "resolution",
+        "resolutions": [
+          {
+            "category": "change-of-name",
+            "description": "resolution-change-of-name",
+            "type": "RES15",
+            "subcategory": "resolution",
+            "description_values": {
+              "resolution_date": "2016-09-29"
+            }
+          }
+        ],
+        "associated_filings": [
+          {
+            "category": "change-of-name",
+            "date": "2016-09-29",
+            "description": "change-of-name-by-resolution",
+            "type": "NM01"
+          }
+        ],
+        "subcategory": "certificate",
+        "description": "resolution",
+        "description_values": {
+          "description": "Resolutions"
+        },
+        "pages": 3,
+        "links": {
+          "self": "/company/10238359/filing-history/MzE1ODU0MjE1OGFkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/MZ5jPZpuy_dbDnXRK6SyX9GWMGjidGaa2_2VxzBvS98"
+        }
+      },
+      {
+        "transaction_id": "MzE1MDkyNzE3M2FkaXF6a2N4",
+        "barcode": "X599IZ68",
+        "type": "NEWINC",
+        "date": "2016-06-17",
+        "category": "incorporation",
+        "associated_filings": [
+          {
+            "category": "incorporation",
+            "date": "2016-06-17",
+            "description": "model-articles-adopted",
+            "type": "MODEL ARTICLES"
+          },
+          {
+            "category": "capital",
+            "date": "2016-06-17",
+            "description": "statement-of-capital",
+            "type": "SH01",
+            "description_values": {
+              "date": "2016-06-17",
+              "capital": [
+                {
+                  "currency": "GBP",
+                  "figure": "25,000"
+                }
+              ]
+            },
+            "action_date": "2016-06-17"
+          }
+        ],
+        "description": "incorporation-company",
+        "pages": 7,
+        "links": {
+          "self": "/company/10238359/filing-history/MzE1MDkyNzE3M2FkaXF6a2N4",
+          "document_metadata": "https://document-api.company-information.service.gov.uk/document/aoJ_Rrn6-MsAzCT6X3P2FHy2EWYQxv4u5O9QLmKyQ2U"
+        }
+      }
+    ],
+    "items_per_page": 25,
+    "start_index": 0,
+    "total_count": 25
+  },
+  "charges": {
+    "etag": "9ad8f18c475fdc01571f930b33737bc6e328c7e3",
+    "total_count": 0,
+    "unfiltered_count": 0,
+    "satisfied_count": 0,
+    "part_satisfied_count": 0,
+    "items": []
+  },
+  "insolvency": {},
+  "officer_networks": [
+    {
+      "officer_name": "HOOFT, Pieter Johannes",
+      "companies": [
+        {
+          "name": "PROJECT WEXLER EBT LIMITED",
+          "number": "15395775",
+          "role": "director",
+          "appointed": "2024-01-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER TOPCO LIMITED",
+          "number": "15335730",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER MIDCO LIMITED",
+          "number": "15335898",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER FINCO LIMITED",
+          "number": "15336181",
+          "role": "director",
+          "appointed": "2023-12-08",
+          "resigned": null
+        },
+        {
+          "name": "CADENCE WEXLER GP LLP",
+          "number": "SO307881",
+          "role": "llp-designated-member",
+          "appointed": "2023-11-17",
+          "resigned": null
+        },
+        {
+          "name": "PROJECT WEXLER BIDCO LIMITED",
+          "number": "15218766",
+          "role": "director",
+          "appointed": "2023-10-18",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR BIDCO LIMITED",
+          "number": "14069820",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR TOPCO LIMITED",
+          "number": "14069033",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "LABRADOR MIDCO LIMITED",
+          "number": "14069436",
+          "role": "director",
+          "appointed": "2022-04-26",
+          "resigned": null
+        },
+        {
+          "name": "CADENCE AZURE GP LLP",
+          "number": "SO306956",
+          "role": "llp-designated-member",
+          "appointed": "2020-05-29",
+          "resigned": null
+        },
+        {
+          "name": "SEVENHILLS SOLAR LIMITED",
+          "number": "09124428",
+          "role": "director",
+          "appointed": "2014-07-10",
+          "resigned": null
+        },
+        {
+          "name": "PAISH CAPITAL LIMITED",
+          "number": "08606240",
+          "role": "director",
+          "appointed": "2013-07-11",
+          "resigned": null
+        },
+        {
+          "name": "FOX IT HOLDING LIMITED",
+          "number": "05233564",
+          "role": "director",
+          "appointed": "2009-12-17",
+          "resigned": null
+        },
+        {
+          "name": "ENTUITY EBT LIMITED",
+          "number": "09127390",
+          "role": "director",
+          "appointed": "2014-07-11",
+          "resigned": "2019-08-13"
+        },
+        {
+          "name": "PARSEQ LIMITED",
+          "number": "05815806",
+          "role": "director",
+          "appointed": "2017-01-04",
+          "resigned": "2019-02-21"
+        },
+        {
+          "name": "DMR CONNECT LIMITED",
+          "number": "06860290",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "KURA FINANCIAL SERVICES LIMITED",
+          "number": "06922296",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "ACTIVE BUSINESS SERVICES LIMITED",
+          "number": "03151334",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "PARSEQ MANAGED SERVICES LIMITED",
+          "number": "07485525",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "KORIS365 UK LIMITED",
+          "number": "07709017",
+          "role": "director",
+          "appointed": "2011-07-18",
+          "resigned": "2017-04-05"
+        },
+        {
+          "name": "TRUECOMMERCE (COVENTRY) LIMITED",
+          "number": "03775122",
+          "role": "director",
+          "appointed": "2012-02-21",
+          "resigned": "2015-08-26"
+        },
+        {
+          "name": "UPDATA INFRASTRUCTURE 2012 LIMITED",
+          "number": "04342422",
+          "role": "director",
+          "appointed": "2009-07-11",
+          "resigned": "2014-03-31"
+        },
+        {
+          "name": "APOGEE GROUP LIMITED",
+          "number": "06445564",
+          "role": "director",
+          "appointed": "2010-03-26",
+          "resigned": "2013-03-11"
+        },
+        {
+          "name": "RSL CITYSPACE LIMITED",
+          "number": "03169833",
+          "role": "director",
+          "appointed": "2009-09-22",
+          "resigned": "2011-04-04"
+        }
+      ]
+    },
+    {
+      "officer_name": "SZPIRO, James Lucien Alexander",
+      "companies": [
+        {
+          "name": "JLAS CAPITAL LIMITED",
+          "number": "08422528",
+          "role": "director",
+          "appointed": "2013-02-27",
+          "resigned": null
+        },
+        {
+          "name": "CP 100 LIMITED",
+          "number": "03590026",
+          "role": "director",
+          "appointed": "2009-03-01",
+          "resigned": null
+        },
+        {
+          "name": "CNH BIDCO LIMITED",
+          "number": "07795109",
+          "role": "director",
+          "appointed": "2016-12-23",
+          "resigned": "2021-10-11"
+        },
+        {
+          "name": "PICCOLO FOODS LIMITED",
+          "number": "09213668",
+          "role": "director",
+          "appointed": "2017-04-07",
+          "resigned": "2021-04-13"
+        },
+        {
+          "name": "FINTILECT LIMITED",
+          "number": "01862322",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2019-12-13"
+        },
+        {
+          "name": "PARSEQ LIMITED",
+          "number": "05815806",
+          "role": "director",
+          "appointed": "2017-01-04",
+          "resigned": "2019-02-21"
+        },
+        {
+          "name": "DMR CONNECT LIMITED",
+          "number": "06860290",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "2 TOUCH BPO SERVICES LTD",
+          "number": "08942815",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "KURA FINANCIAL SERVICES LIMITED",
+          "number": "06922296",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "ACTIVE BUSINESS SERVICES LIMITED",
+          "number": "03151334",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "PARSEQ MANAGED SERVICES LIMITED",
+          "number": "07485525",
+          "role": "director",
+          "appointed": "2017-01-05",
+          "resigned": "2017-04-27"
+        },
+        {
+          "name": "KORIS365 UK LIMITED",
+          "number": "07709017",
+          "role": "director",
+          "appointed": "2014-12-10",
+          "resigned": "2016-12-21"
+        },
+        {
+          "name": "ELATERAL GROUP LIMITED",
+          "number": "07435521",
+          "role": "director",
+          "appointed": "2011-09-20",
+          "resigned": "2016-12-13"
+        },
+        {
+          "name": "TRUECOMMERCE (COVENTRY) LIMITED",
+          "number": "03775122",
+          "role": "director",
+          "appointed": "2015-01-20",
+          "resigned": "2015-08-26"
+        },
+        {
+          "name": "EMERGING MARKETS ADVISORY CORPORATION LIMITED",
+          "number": "04406968",
+          "role": "director",
+          "appointed": "2011-07-01",
+          "resigned": "2014-10-27"
+        },
+        {
+          "name": "UPDATA INFRASTRUCTURE (UK) LIMITED",
+          "number": "06957593",
+          "role": "director",
+          "appointed": "2012-01-24",
+          "resigned": "2014-03-31"
+        },
+        {
+          "name": "ELATERAL HOLDINGS LIMITED",
+          "number": "03467925",
+          "role": "director",
+          "appointed": "2010-07-30",
+          "resigned": "2011-11-24"
+        },
+        {
+          "name": "RSL CITYSPACE LIMITED",
+          "number": "03169833",
+          "role": "director",
+          "appointed": "2009-01-14",
+          "resigned": "2011-04-04"
+        }
+      ]
+    }
+  ]
+}
