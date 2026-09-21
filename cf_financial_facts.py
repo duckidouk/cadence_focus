@@ -31,7 +31,17 @@ from urllib3.util.retry import Retry
 BASE_DIR = Path(__file__).resolve().parent
 API_URL = "https://api.company-information.service.gov.uk"
 DOCUMENT_URL = "https://document-api.company-information.service.gov.uk"
-COMPANIES = {"cadence": "10238359", "scci": "05150526", "jlas": "08686757", "3000-years":"14446571", "aquam":"09527628","radio-data-networks":"02984975","lee-dickens":"00735448", "lucky-number":"09391780"}
+COMPANIES = {
+    "cadence": "10238359",
+    "scci": "05150526",
+    "jlas": "08686757",
+    "3000-years":"14446571",
+    "aquam":"09527628",
+    "radio-data-networks":"02984975",
+    "lee-dickens":"00735448",
+    "lucky-number":"09391780",
+    "scci-group": "06089974"
+}
 XBRL = "{http://www.xbrl.org/2003/instance}"
 INLINE_NAMESPACES = {
     "http://www.xbrl.org/2008/inlineXBRL",
@@ -306,7 +316,7 @@ def run(company="cadence", project_dir=BASE_DIR, db_path=None, accounts_date=Non
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--company", default="cadence", help="cadence, scci, jlas, or company number")
+    parser.add_argument("--company", default="cadence", help="cadence, scci, jlas, etc.. or company number")
     parser.add_argument("--project-dir", type=Path, default=BASE_DIR)
     parser.add_argument("--db", type=Path, help="Optional destination database")
     parser.add_argument("--accounts-date", help="Optional accounts year-end, YYYY-MM-DD")
