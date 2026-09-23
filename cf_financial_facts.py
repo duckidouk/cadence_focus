@@ -1,4 +1,4 @@
-"""Download filed accounts and save their financial figures in Cadence's cf.db.
+"""Download filed accounts and save figures in data/database/cf.db.
 
 Run from the Cadence_Focus folder:
     .venv/bin/python cf_financial_facts.py --dry-run
@@ -244,10 +244,13 @@ def save_facts(facts, db_path):
     stores decimal text so SQLite floating-point conversion cannot lose precision.
     """
     db_path = Path(db_path)
+    db_path.parent.mkdir(parents=True, exist_ok=True)
     backup_path = None
     if db_path.exists():
         stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
-        backup_path = db_path.with_name(f"{db_path.name}.{stamp}.bak")
+        backup_dir = db_path.parent / "backups"
+        backup_dir.mkdir(parents=True, exist_ok=True)
+        backup_path = backup_dir / f"{db_path.name}.{stamp}.bak"
         with closing(sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)) as source:
             with closing(sqlite3.connect(backup_path)) as backup:
                 source.backup(backup)
@@ -306,7 +309,11 @@ def run(company="cadence", project_dir=BASE_DIR, db_path=None, accounts_date=Non
     if dry_run:
         print("Dry run complete: database unchanged.")
     else:
-        destination = Path(db_path) if db_path else Path(project_dir) / "cf.db"
+        destination = (
+            Path(db_path)
+            if db_path
+            else Path(project_dir) / "data" / "database" / "cf.db"
+        )
         backup = save_facts(facts, destination)
         print(f"Saved {len(facts)} facts to {destination}")
         if backup:

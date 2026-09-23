@@ -27,3 +27,6 @@ dist/
 .DS_Store
 
 .zed/
+
+# Generated database backups
+data/database/backups/*.bak

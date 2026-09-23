@@ -1,0 +1,22 @@
+Cadence Focus KPI Analysis Process
+
+1. Define the Business Question
+Decide what decision the analysis should support and what Pieter needs to understand.
+
+2. Create the KPI Dictionary
+Define each KPI, its formula, comparison period, source, and display rule before coding.
+
+3. Build the SQL Reporting Dataset
+Validate and transform raw data into one controlled row per company and reporting period.
+
+4. Calculate and Validate in Python
+Calculate changes and KPIs in Pandas, then test for missing values, duplicates, and incorrect entities.
+
+5. Create the Plotly Charts
+Turn the validated results into clear, decision-focused charts without exaggerating the evidence.
+
+6. Assemble the Streamlit Dashboard
+Combine KPI cards, charts, controls, sources, and data-quality warnings into one usable page.
+
+7. Write the Analyst Conclusions
+Explain the important movements, limitations, and management questions without making unsupported claims.

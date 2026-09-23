@@ -10,7 +10,7 @@ From the `Cadence_Focus` folder, preview the extraction:
 .venv/bin/python cf_financial_facts.py --dry-run
 ```
 
-Save the results to the existing `cf.db`:
+Save the results to the existing `data/database/cf.db`:
 
 ```sh
 .venv/bin/python cf_financial_facts.py
@@ -62,8 +62,8 @@ The original table and columns remain available. Extra columns are added for dat
 units, parsing status and provenance. `value_numeric` supports existing queries;
 `value_exact` stores the exact decimal string. Existing rows receive no invented
 dates. Reimporting the same document updates its facts without adding duplicates.
-An existing database is backed up beside itself before every write. Other tables
-and other companies' rows are preserved.
+An existing database is backed up in `data/database/backups` before every write.
+Other tables and other companies' rows are preserved.
 
 For example, inspect Cadence's current-assets facts after importing:
 
