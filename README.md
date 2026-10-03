@@ -20,20 +20,6 @@ Streamlit displays the dashboard
 
 The project uses the official Companies House APIs rather than copying information from webpages. The API key is stored as `COMPANIES_HOUSE_API_KEY` in the project-root `.env` file and must never be committed to Git.
 
-Two Python scripts collect different kinds of information:
-
-### Company research
-
-`companyhouse_scrape_company-information.py` retrieves general company information, including:
-
-- Company profile
-- Officers and their other appointments
-- People with significant control
-- Filing history
-- Charges and insolvency information
-
-It saves this research as a JSON file. It does **not** supply the financial figures shown in the dashboard.
-
 ### Financial accounts importer
 
 `cf_financial_facts.py` supplies the dashboard data. It:
@@ -67,13 +53,26 @@ The importer handles structured accounts only. If Companies House provides only 
 
 The files in `sql/` select the facts needed for each company and turn them into one reporting row per financial period.
 
-The app's company selector currently supports:
+The app's company selector currently supports nine controlled datasets:
 
-- `sql/4fibre_kpis.sql` for **4 FIBRE LIMITED** (`04144664`)
-- `sql/scci_kpis.sql` for **SCCI GROUP LIMITED** (`06089974`)
+| Dashboard name | Legal company | Company number | Profit | Revenue |
+|---|---|---:|---|---|
+| 4 Fibre | 4 FIBRE LIMITED | `04144664` | Not reported | Not reported |
+| Airwave Europe | AIRWAVE EUROPE LTD. | `03000768` | Reported | Reported |
+| Alphatrack Systems | ALPHATRACK SYSTEMS LIMITED | `02863196` | Reported | Reported |
+| Cable Television Services | CABLE TELEVISION SERVICES LIMITED | `02070618` | Not reported | Not reported |
+| Interphone | INTERPHONE LIMITED | `00692333` | Not reported | Not reported |
+| Radio Data Networks | RADIO DATA NETWORKS LIMITED | `02984975` | Not reported | Not reported |
+| SCCI Alphatrack | SCCI ALPHATRACK LTD | `02760731` | Reported | Reported |
+| SCCI Group | SCCI GROUP LIMITED | `06089974` | Reported | Not reported |
+| SCS Technologies | SCS TECHNOLOGIES LTD | `03505057` | Not reported | Not reported |
 
 Each company has a controlled query because XBRL concept names can differ between
-filings. Selecting a company changes the query; it does not change the database.
+filings. Selecting a company changes the query; it does not change the database. Missing
+facts are returned as `NULL` and displayed as `N/A`, never replaced with zero.
+
+Legacy **SCCI LIMITED** (`05150526`) is not included because its stored facts lack
+reporting dates and cannot support a reliable two-period comparison without a clean re-import.
 
 ### 3. Python and Pandas
 
@@ -91,7 +90,7 @@ These calculations exist temporarily in the DataFrame and are not written back t
 
 `app.py` compares the latest reporting period with the previous period. It displays:
 
-- Six headline KPI cards
+- Seven headline KPI cards, including revenue when reported
 - Current-asset and profit/loss charts
 - A short interpretation
 - Data-quality warnings
@@ -120,11 +119,17 @@ Cadence_Focus/
 │   └── KPI_dictionary.xlsx
 ├── sql/
 │   ├── 4fibre_kpis.sql
-│   └── scci_kpis.sql
+│   ├── airwave_europe_kpis.sql
+│   ├── alphatrack_systems_kpis.sql
+│   ├── cable_television_services_kpis.sql
+│   ├── interphone_kpis.sql
+│   ├── radio_data_networks_kpis.sql
+│   ├── scci_alphatrack_kpis.sql
+│   ├── scci_kpis.sql
+│   └── scs_technologies_kpis.sql
 ├── static/
 │   └── font files
 ├── cf_financial_facts.py
-├── companyhouse_scrape_company-information.py
 └── app.py
 ```
 
@@ -143,10 +148,23 @@ Use the **Company** control in the sidebar to switch between the supported compa
 
 To stop the app, click inside the terminal and press `Control + C`.
 
+Run the automated importer, calculation, SQL and dashboard checks with:
+
+```bash
+.venv/bin/python -m unittest -v
+```
+
 ## Important data limitation
 
-Verified revenue and EBITDA data are not currently available. Revenue growth, margins, cash conversion, and leverage KPIs should therefore remain unavailable rather than being treated as zero.
+Verified revenue is currently available for Airwave Europe, Alphatrack Systems and
+SCCI Alphatrack. It remains unavailable for the other supported companies. Verified
+EBITDA is not currently available, so EBITDA margins, cash conversion and leverage
+KPIs remain unavailable rather than being treated as zero.
 
 Some companies also omit tagged profit or debtors facts. The app displays those
 measures as **Not reported**, suppresses unsupported charts, and preserves the
 missing values instead of replacing them with zero.
+
+SCS Technologies' stored employee facts currently evaluate to `0.62` and `0.64`
+because the filing supplies a negative scale. Employee count is not displayed as a KPI;
+the source value is retained pending separate validation rather than silently corrected.

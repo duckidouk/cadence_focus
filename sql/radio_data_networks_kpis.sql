@@ -1,5 +1,5 @@
--- Purpose: produce one controlled reporting row per period for 4 Fibre.
--- Company: 4 FIBRE LIMITED (04144664)
+-- Purpose: produce one controlled reporting row per period for Radio Data Networks.
+-- Company: RADIO DATA NETWORKS LIMITED (02984975)
 -- Source: financial_facts in data/database/cf.db
 
 WITH clean_facts AS (
@@ -15,7 +15,7 @@ WITH clean_facts AS (
     FROM financial_facts AS f
     LEFT JOIN company AS c
         ON f.company_number = c.company_number
-    WHERE f.company_number = '04144664'
+    WHERE f.company_number = '02984975'
       AND COALESCE(f.dimensions_json, '{}') = '{}'
       AND f.concept_local_name IN (
           'CashBankOnHand',
@@ -24,6 +24,7 @@ WITH clean_facts AS (
           'ProfitLoss',
           'NetCurrentAssetsLiabilities',
           'NetAssetsLiabilities',
+          'TurnoverRevenue',
           'AverageNumberEmployeesDuringPeriod'
       )
 )
@@ -36,7 +37,7 @@ SELECT
     MAX(CASE WHEN concept_local_name = 'CurrentAssets' THEN value END) AS current_assets,
     MAX(CASE WHEN concept_local_name = 'Debtors' THEN value END) AS debtors,
     MAX(CASE WHEN concept_local_name = 'ProfitLoss' THEN value END) AS profit_loss,
-    NULL AS revenue,
+    MAX(CASE WHEN concept_local_name = 'TurnoverRevenue' THEN value END) AS revenue,
     MAX(CASE WHEN concept_local_name = 'NetCurrentAssetsLiabilities' THEN value END) AS net_current_assets,
     MAX(CASE WHEN concept_local_name = 'NetAssetsLiabilities' THEN value END) AS net_assets,
     MAX(CASE WHEN concept_local_name = 'AverageNumberEmployeesDuringPeriod' THEN value END) AS average_employees,

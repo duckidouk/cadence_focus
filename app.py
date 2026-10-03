@@ -72,6 +72,9 @@ def interpretation(latest: pd.Series, prior: pd.Series) -> str:
             f"Current assets {movement(latest['current_assets'], prior['current_assets'])}."
         )
 
+    if pd.notna(latest["revenue"]) and pd.notna(prior["revenue"]):
+        observations.append(f"Revenue {movement(latest['revenue'], prior['revenue'])}.")
+
     if pd.notna(latest["net_current_assets"]) and pd.notna(prior["net_current_assets"]):
         if latest["net_current_assets"] < 0 <= prior["net_current_assets"]:
             observations.append(
@@ -112,10 +115,11 @@ def unavailable_metrics(dataframe: pd.DataFrame) -> list[str]:
         for label, column in (
             ("profit / (loss)", "profit_loss"),
             ("debtors", "debtors"),
+            ("revenue", "revenue"),
         )
         if dataframe[column].isna().any()
     ]
-    return unavailable + ["revenue", "EBITDA"]
+    return unavailable + ["EBITDA"]
 
 
 @st.cache_data
@@ -145,11 +149,16 @@ st.caption(
 )
 
 st.subheader("Headline KPIs")
-first_row = st.columns(2)
+first_row = st.columns(3)
 first_row[0].metric(
     "Cash", pounds_value(latest["cash"]), money_delta(latest["cash"], prior["cash"])
 )
 first_row[1].metric(
+    "Revenue",
+    pounds_value(latest["revenue"]),
+    money_delta(latest["revenue"], prior["revenue"]),
+)
+first_row[2].metric(
     "Profit / (loss)",
     pounds_value(latest["profit_loss"]),
     money_delta(latest["profit_loss"], prior["profit_loss"]),

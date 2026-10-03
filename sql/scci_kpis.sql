@@ -36,6 +36,7 @@ SELECT
     MAX(CASE WHEN concept_local_name = 'CurrentAssets' THEN value END) AS current_assets,
     MAX(CASE WHEN concept_local_name = 'Debtors' THEN value END) AS debtors,
     MAX(CASE WHEN concept_local_name = 'ProfitLoss' THEN value END) AS profit_loss,
+    NULL AS revenue,
     MAX(CASE WHEN concept_local_name = 'NetCurrentAssetsLiabilities' THEN value END) AS net_current_assets,
     MAX(CASE WHEN concept_local_name = 'NetAssetsLiabilities' THEN value END) AS net_assets,
     MAX(CASE WHEN concept_local_name = 'AverageNumberEmployeesDuringPeriod' THEN value END) AS average_employees,

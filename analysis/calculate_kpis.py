@@ -1,5 +1,6 @@
 """Load a controlled company dataset and calculate reusable financial KPIs."""
 
+from contextlib import closing
 from pathlib import Path
 import sqlite3
 
@@ -9,7 +10,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE = PROJECT_ROOT / "data" / "database" / "cf.db"
 COMPANY_SQL_FILES = {
     "4 Fibre": PROJECT_ROOT / "sql" / "4fibre_kpis.sql",
+    "Airwave Europe": PROJECT_ROOT / "sql" / "airwave_europe_kpis.sql",
+    "Alphatrack Systems": PROJECT_ROOT / "sql" / "alphatrack_systems_kpis.sql",
+    "Cable Television Services": PROJECT_ROOT / "sql" / "cable_television_services_kpis.sql",
+    "Interphone": PROJECT_ROOT / "sql" / "interphone_kpis.sql",
+    "Radio Data Networks": PROJECT_ROOT / "sql" / "radio_data_networks_kpis.sql",
+    "SCCI Alphatrack": PROJECT_ROOT / "sql" / "scci_alphatrack_kpis.sql",
     "SCCI Group": PROJECT_ROOT / "sql" / "scci_kpis.sql",
+    "SCS Technologies": PROJECT_ROOT / "sql" / "scs_technologies_kpis.sql",
 }
 DEFAULT_COMPANY = "4 Fibre"
 REQUIRED_REPORTING_COLUMNS = {
@@ -20,6 +28,7 @@ REQUIRED_REPORTING_COLUMNS = {
     "current_assets",
     "debtors",
     "profit_loss",
+    "revenue",
     "net_current_assets",
     "net_assets",
 }
@@ -38,7 +47,7 @@ def load_reporting_data(
 
     sql = sql_file.read_text(encoding="utf-8")
 
-    with sqlite3.connect(database_path) as connection:
+    with closing(sqlite3.connect(database_path)) as connection:
         dataframe = pd.read_sql_query(sql, connection)
 
     missing_columns = REQUIRED_REPORTING_COLUMNS.difference(dataframe.columns)
@@ -58,6 +67,7 @@ def add_calculated_kpis(dataframe: pd.DataFrame) -> pd.DataFrame:
         "current_assets",
         "debtors",
         "profit_loss",
+        "revenue",
         "net_current_assets",
         "net_assets",
     ]
@@ -108,6 +118,7 @@ def create_kpi_summary(dataframe: pd.DataFrame) -> pd.DataFrame:
     metrics = [
         ("Cash", "cash", "GBP"),
         ("Profit / (loss)", "profit_loss", "GBP"),
+        ("Revenue", "revenue", "GBP"),
         (
             "Net current position",
             "net_current_assets",
