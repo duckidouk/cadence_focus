@@ -1,50 +1,95 @@
 # Cadence Focus
 
-Cadence Focus is a Python and SQL prototype for acquisition and portfolio analysis.
+Cadence Focus is a simple financial-analysis dashboard for UK private companies. It reads company filing data from a SQLite database, calculates useful KPIs, and displays the results in a Streamlit web app.
 
-## KPI workflow
+## How it works
 
-1. Define the business question.
-2. Agree the KPI definitions in `documentation/KPI_dictionary.xlsx`.
-3. Produce the controlled reporting dataset with `sql/scci_kpis.sql`.
-4. Calculate and validate KPIs in `analysis/calculate_kpis.py`.
-5. Build charts with Plotly.
-6. Present the tested results in `app.py` with Streamlit.
-7. Write conclusions that separate facts, interpretation, and missing information.
+```text
+SQLite database
+      ↓
+SQL selects and organises the financial facts
+      ↓
+Python calculates additional KPIs
+      ↓
+Plotly creates the charts
+      ↓
+Streamlit displays the dashboard
+```
+
+### 1. Database
+
+`data/database/cf.db` stores the financial facts collected from company filings. The dashboard only reads this database; running the app does not change it.
+
+### 2. SQL
+
+The files in `sql/` select the facts needed for each company and turn them into one reporting row per financial period.
+
+The dashboard currently uses `sql/4fibre_kpis.sql`, which selects **4 FIBRE LIMITED** (`04144664`).
+
+### 3. Python and Pandas
+
+`analysis/calculate_kpis.py` runs the SQL query and loads the result into a Pandas DataFrame. It then calculates additional measures, including:
+
+- Current liabilities
+- Current ratio
+- Cash as a share of current assets
+- Debtors as a share of current assets
+- Cash coverage of current liabilities
+
+These calculations exist temporarily in the DataFrame and are not written back to the database.
+
+### 4. Plotly and Streamlit
+
+`app.py` compares the latest reporting period with the previous period. It displays:
+
+- Six headline KPI cards
+- Current-asset and profit/loss charts
+- A short interpretation
+- Data-quality warnings
+- Filing dates and source links
+
+Plotly creates the charts, while Streamlit arranges everything on the webpage.
+
+### 5. Theme
+
+`.streamlit/config.toml` controls the colours, fonts, borders, and other visual settings. The corresponding font files are stored in `static/`.
+
+Changing the theme changes how the app looks, not how its KPIs are calculated.
 
 ## Project structure
 
 ```text
 Cadence_Focus/
-├── documentation/
-│   └── KPI_dictionary.xlsx
-├── data/
-│   └── database/
-│       ├── cf.db
-│       └── backups/
-├── sql/
-│   └── scci_kpis.sql
+├── .streamlit/
+│   └── config.toml
 ├── analysis/
 │   └── calculate_kpis.py
+├── data/
+│   └── database/
+│       └── cf.db
+├── documentation/
+│   └── KPI_dictionary.xlsx
+├── sql/
+│   ├── 4fibre_kpis.sql
+│   └── scci_kpis.sql
+├── static/
+│   └── font files
 └── app.py
 ```
 
-## Run the checks
-
-```bash
-source .venv/bin/activate
-python analysis/calculate_kpis.py
-```
-
 ## Run the dashboard
+
+From the main `Cadence_Focus` folder:
 
 ```bash
 source .venv/bin/activate
 streamlit run app.py
 ```
 
-The first KPI pack covers SCCI GROUP LIMITED, company number `06089974`.
-Revenue and EBITDA KPIs remain unavailable until verified source data is added.
+Streamlit runs `app.py`, loads the database data, calculates the KPIs, creates the charts, and opens the dashboard at `http://localhost:8501`.
 
-The SQLite database lives at `data/database/cf.db`. Timestamped backups are
-stored in `data/database/backups` and excluded from Git.
+To stop the app, click inside the terminal and press `Control + C`.
+
+## Important data limitation
+
+Verified revenue and EBITDA data are not currently available. Revenue growth, margins, cash conversion, and leverage KPIs should therefore remain unavailable rather than being treated as zero.

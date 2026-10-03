@@ -1,14 +1,18 @@
-"""Load the controlled SQL dataset and calculate SCCI Group KPIs."""
+#Load the controlled SQL dataset and calculate SCCI Group KPIs
 
 from pathlib import Path
 import sqlite3
 
 import pandas as pd
 
-
+company = {
+    "4fibre":"4fibre",
+    "SCCI": "scci",
+    "Airwave Europe":"airwave_europe"
+}
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE = PROJECT_ROOT / "data" / "database" / "cf.db"
-SQL_FILE = PROJECT_ROOT / "sql" / "scci_kpis.sql"
+SQL_FILE = PROJECT_ROOT / "sql" / f"{company["4fibre"]}_kpis.sql"
 
 
 def load_reporting_data(database_path: Path = DEFAULT_DATABASE) -> pd.DataFrame:
@@ -56,10 +60,50 @@ def latest_comparison(dataframe: pd.DataFrame) -> tuple[pd.Series, pd.Series]:
     return ordered.iloc[-1], ordered.iloc[-2]
 
 
+#creating kpis for streamlit
+
+def create_kpi_summary(dataframe: pd.DataFrame) -> pd.DataFrame:
+    """Create a numeric prior-period KPI comparison table."""
+    current, prior = latest_comparison(dataframe)
+
+    metrics = [
+        ("Cash", "cash", "GBP"),
+        ("Profit / (loss)", "profit_loss", "GBP"),
+        (
+            "Net current position",
+            "net_current_assets",
+            "GBP",
+        ),
+        ("Current ratio", "current_ratio", "x"),
+        ("Debtors", "debtors", "GBP"),
+        ("Net assets", "net_assets", "GBP"),
+    ]
+
+    rows = []
+
+    for kpi_name, column_name, unit in metrics:
+        prior_value = prior[column_name]
+        current_value = current[column_name]
+
+        rows.append(
+            {
+                "kpi": kpi_name,
+                "prior": prior_value,
+                "current": current_value,
+                "change": current_value - prior_value,
+                "unit": unit,
+            }
+        )
+
+    return pd.DataFrame(rows)
+
 def main() -> None:
-    """Print the calculated reporting table for a quick manual check."""
-    reporting_data = add_calculated_kpis(load_reporting_data())
-    print(reporting_data.to_string(index=False))
+    """Print the calculated KPI summary for a manual check."""
+    reporting_data = load_reporting_data()
+    calculated_data = add_calculated_kpis(reporting_data)
+    summary = create_kpi_summary(calculated_data)
+
+    print(summary.to_string(index=False))
 
 
 if __name__ == "__main__":

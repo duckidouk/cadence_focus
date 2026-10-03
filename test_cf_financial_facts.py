@@ -82,6 +82,26 @@ class FinancialFactsTests(unittest.TestCase):
             with sqlite3.connect(backup) as conn:
                 self.assertEqual(conn.execute('SELECT count(*) FROM financial_facts').fetchone()[0], 0)
 
+    def test_save_facts_inserts_and_updates_company_profile(self):
+        with tempfile.TemporaryDirectory() as temp:
+            db = Path(temp) / "cf.db"
+            facts = parse(document())
+            profile = {
+                "company_number": "10238359",
+                "company_name": "CADENCE EQUITY PARTNERS LIMITED",
+            }
+
+            cf.save_facts(facts, db, profile)
+            profile["company_name"] = "UPDATED COMPANY NAME"
+            cf.save_facts(facts, db, profile)
+
+            with sqlite3.connect(db) as conn:
+                rows = conn.execute(
+                    "SELECT company_number, company_name FROM company"
+                ).fetchall()
+
+            self.assertEqual(rows, [("10238359", "UPDATED COMPANY NAME")])
+
     def test_filing_pagination_skips_aa01(self):
         pages = [Mock(), Mock()]
         pages[0].json.return_value = {"items": [{"type": "AA01"}], "total_count": 2}

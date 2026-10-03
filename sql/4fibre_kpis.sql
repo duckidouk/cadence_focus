@@ -1,5 +1,5 @@
 -- Purpose: produce one controlled reporting row per period for SCCI Group.
--- Company: SCCI GROUP LIMITED (06089974)
+-- Company: 4 FIBRE LIMITED (04144664)
 -- Source: financial_facts in data/database/cf.db
 
 WITH clean_facts AS (
@@ -15,10 +15,10 @@ WITH clean_facts AS (
     FROM financial_facts AS f
     LEFT JOIN company AS c
         ON f.company_number = c.company_number
-    WHERE f.company_number = '06089974'
+    WHERE f.company_number = '04144664'
       AND COALESCE(f.dimensions_json, '{}') = '{}'
       AND f.concept_local_name IN (
-          'CashCashEquivalents',
+          'CashBankOnHand',
           'CurrentAssets',
           'Debtors',
           'ProfitLoss',
@@ -32,7 +32,7 @@ SELECT
     company_name,
     company_number,
     reporting_date,
-    MAX(CASE WHEN concept_local_name = 'CashCashEquivalents' THEN value END) AS cash,
+    MAX(CASE WHEN concept_local_name = 'CashBankOnHand' THEN value END) AS cash,
     MAX(CASE WHEN concept_local_name = 'CurrentAssets' THEN value END) AS current_assets,
     MAX(CASE WHEN concept_local_name = 'Debtors' THEN value END) AS debtors,
     MAX(CASE WHEN concept_local_name = 'ProfitLoss' THEN value END) AS profit_loss,

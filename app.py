@@ -34,7 +34,6 @@ def get_data() -> pd.DataFrame:
 
 
 st.title("Cadence Focus")
-st.caption("SCCI Group Limited | Company number 06089974 | Public filing data")
 
 try:
     data = get_data()
@@ -42,6 +41,11 @@ try:
 except (FileNotFoundError, ValueError, pd.errors.DatabaseError) as error:
     st.error(f"The KPI data could not be loaded: {error}")
     st.stop()
+
+st.caption(
+    f"{latest['company_name'].title()} | Company number "
+    f"{latest['company_number']} | Public filing data"
+)
 
 st.subheader("Headline KPIs")
 first_row = st.columns(3)
@@ -105,6 +109,7 @@ st.warning(
 )
 
 evidence_columns = [
+    "company_name",
     "reporting_date",
     "filing_date",
     "accounts_date",

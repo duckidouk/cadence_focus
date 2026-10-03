@@ -237,8 +237,8 @@ def parse_facts(content, number, document_id, source_url, filing):
     return list(facts.values())
 
 
-def save_facts(facts, db_path):
-    """Back up an existing DB, add missing columns, and upsert in one transaction.
+def save_facts(facts, db_path, profile=None):
+    """Back up an existing DB, then upsert the company profile and its facts.
 
     value_numeric stays compatible with existing notebook queries. value_exact
     stores decimal text so SQLite floating-point conversion cannot lose precision.
@@ -257,6 +257,18 @@ def save_facts(facts, db_path):
     with closing(sqlite3.connect(db_path, timeout=30)) as conn:
         with conn:
             conn.execute("BEGIN IMMEDIATE")
+            conn.execute("""CREATE TABLE IF NOT EXISTS company (
+                company_name TEXT,
+                company_number TEXT UNIQUE
+            )""")
+            if profile is not None:
+                conn.execute("""INSERT INTO company (company_number, company_name)
+                    VALUES (?, ?)
+                    ON CONFLICT(company_number)
+                    DO UPDATE SET company_name=excluded.company_name""", (
+                        company_number(profile["company_number"]),
+                        profile["company_name"],
+                    ))
             conn.execute("""CREATE TABLE IF NOT EXISTS financial_facts (
                 fact_id INTEGER PRIMARY KEY AUTOINCREMENT,
                 company_number TEXT NOT NULL, document_id TEXT NOT NULL,
@@ -314,7 +326,7 @@ def run(company="cadence", project_dir=BASE_DIR, db_path=None, accounts_date=Non
             if db_path
             else Path(project_dir) / "data" / "database" / "cf.db"
         )
-        backup = save_facts(facts, destination)
+        backup = save_facts(facts, destination, profile)
         print(f"Saved {len(facts)} facts to {destination}")
         if backup:
             print(f"Previous database backed up to {backup}")
